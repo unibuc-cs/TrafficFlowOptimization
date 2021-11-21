@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2021-11-16 11:32:31 by Eclipse SUMO duarouter Version 1.10.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\cipri\Sumo\2021-11-16-11-32-21\osm.net.xml"/>
+        <route-files value="C:\Users\cipri\Sumo\2021-11-16-11-32-21\osm.motorcycle.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\cipri\Sumo\2021-11-16-11-32-21\osm.motorcycle.trips.xml.tmp"/>
+        <write-trips value="true"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="moto_motorcycle" vClass="motorcycle"/>
+    <trip id="moto0" type="moto_motorcycle" depart="0.00" departLane="best" from="665968658#2" to="223253411#2"/>
+    <trip id="moto1" type="moto_motorcycle" depart="232.82" departLane="best" departSpeed="max" from="50584779" to="23562672#1"/>
+    <trip id="moto2" type="moto_motorcycle" depart="465.64" departLane="best" departSpeed="max" from="865722413#0" to="964596253"/>
+    <trip id="moto3" type="moto_motorcycle" depart="698.46" departLane="best" from="964596254#0" to="223253411#2"/>
+    <trip id="moto4" type="moto_motorcycle" depart="931.28" departLane="best" departSpeed="max" from="665968658#0" to="223253411#2"/>
+    <trip id="moto6" type="moto_motorcycle" depart="1396.92" departLane="best" from="23562672#1" to="23562672#1"/>
+    <trip id="moto9" type="moto_motorcycle" depart="2095.38" departLane="best" departSpeed="max" from="865722413#0" to="223253411#2"/>
+    <trip id="moto10" type="moto_motorcycle" depart="2328.20" departLane="best" departSpeed="max" from="865722413#0" to="964596253"/>
+    <trip id="moto11" type="moto_motorcycle" depart="2561.02" departLane="best" departSpeed="max" from="665968658#0" to="223253411#2"/>
+    <trip id="moto12" type="moto_motorcycle" depart="2793.84" departLane="best" from="964596254#1" to="635271978#1"/>
+    <trip id="moto15" type="moto_motorcycle" depart="3492.30" departLane="best" departSpeed="max" from="865722413#0" to="964596253"/>
+</routes>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2021-11-16 11:39:04 by Eclipse SUMO duarouter Version 1.10.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\cipri\Sumo\2021-11-16-11-39-00\osm.net.xml"/>
+        <route-files value="C:\Users\cipri\Sumo\2021-11-16-11-39-00\osm.pedestrian.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\cipri\Sumo\2021-11-16-11-39-00\osm.pedestrian.rou.xml"/>
+        <alternatives-output value="C:\Users\cipri\Sumo\2021-11-16-11-39-00\osm.pedestrian.rou.alt.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="ped_pedestrian" vClass="pedestrian"/>
+    <person id="ped0" type="ped_pedestrian" depart="0.00">
+        <personTrip from="313014417#2" to="-125496888#1" walkFactor="0.75" costs="75.35"/>
+    </person>
+    <person id="ped1" type="ped_pedestrian" depart="45.54">
+        <personTrip from="-313014417#2" to="-313014417#2" walkFactor="0.75" costs="0.00"/>
+    </person>
+    <person id="ped2" type="ped_pedestrian" depart="91.08">
+        <personTrip from="313014418#2" to="313014417#2" walkFactor="0.75" costs="62.78"/>
+    </person>
+    <person id="ped3" type="ped_pedestrian" depart="136.62">
+        <personTrip from="4865914#0" to="-125496888#1" walkFactor="0.75" costs="805.56"/>
+    </person>
+    <person id="ped4" type="ped_pedestrian" depart="182.16">
+        <personTrip from="125496888#0" to="-125496888#1" walkFactor="0.75" costs="165.29"/>
+    </person>
+    <person id="ped5" type="ped_pedestrian" depart="227.70">
+        <personTrip from="-313014417#2" to="313014417#0" walkFactor="0.75" costs="220.01"/>
+    </person>
+    <person id="ped6" type="ped_pedestrian" depart="273.23">
+        <personTrip from="-125496888#1" to="-313014417#1" walkFactor="0.75" costs="54.77"/>
+    </person>
+    <person id="ped7" type="ped_pedestrian" depart="318.77">
+        <personTrip from="313014417#2" to="313014417#0" walkFactor="0.75" costs="39.27"/>
+    </person>
+    <person id="ped8" type="ped_pedestrian" depart="364.31">
+        <personTrip from="-313014417#2" to="313014417#0" walkFactor="0.75" costs="220.01"/>
+    </person>
+    <person id="ped9" type="ped_pedestrian" depart="409.85">
+        <personTrip from="4865914#0" to="-125496888#1" walkFactor="0.75" costs="805.56"/>
+    </person>
+    <person id="ped10" type="ped_pedestrian" depart="455.39">
+        <personTrip from="4865914#0" to="313014417#2" walkFactor="0.75" costs="812.33"/>
+    </person>
+    <person id="ped11" type="ped_pedestrian" depart="500.93">
+        <personTrip from="-78062035" to="-313014417#1" walkFactor="0.75" costs="37.17"/>
+    </person>
+    <person id="ped12" type="ped_pedestrian" depart="546.47">
+        <personTrip from="78062035" to="-78062035" walkFactor="0.75" costs="39.28"/>
+    </person>
+    <person id="ped13" type="ped_pedestrian" depart="592.01">
+        <personTrip from="-125496888#1" to="-125496888#1" walkFactor="0.75" costs="0.00"/>
+    </person>
+    <person id="ped14" type="ped_pedestrian" depart="637.55">
+        <personTrip from="4865914#0" to="313014417#2" walkFactor="0.75" costs="812.33"/>
+    </person>
+    <person id="ped15" type="ped_pedestrian" depart="683.09">
+        <personTrip from="4865914#0" to="313014418#2" walkFactor="0.75" costs="792.98"/>
+    </person>
+    <person id="ped16" type="ped_pedestrian" depart="728.63">
+        <personTrip from="313014417#0" to="78062035" walkFactor="0.75" costs="57.08"/>
+    </person>
+    <person id="ped17" type="ped_pedestrian" depart="774.17">
+        <personTrip from="-78062035" to="313014417#0" walkFactor="0.75" costs="23.50"/>
+    </person>
+    <person id="ped18" type="ped_pedestrian" depart="819.70">
+        <personTrip from="4865914#0" to="313014417#2" walkFactor="0.75" costs="812.33"/>
+    </person>
+    <person id="ped19" type="ped_pedestrian" depart="865.24">
+        <personTrip from="4865914#0" to="313014417#0" walkFactor="0.75" costs="773.06"/>
+    </person>
+    <person id="ped20" type="ped_pedestrian" depart="910.78">
+        <personTrip from="313014418#2" to="-125496888#1" walkFactor="0.75" costs="25.23"/>
+    </person>
+    <person id="ped21" type="ped_pedestrian" depart="956.32">
+        <personTrip from="-313014417#2" to="-313014417#2" walkFactor="0.75" costs="0.00"/>
+    </person>
+    <person id="ped22" type="ped_pedestrian" depart="1001.86">
+        <personTrip from="-125496888#1" to="-313014417#2" walkFactor="0.75" costs="228.35"/>
+    </person>
+    <person id="ped23" type="ped_pedestrian" depart="1047.40">
+        <personTrip from="-313014417#1" to="-313014417#2" walkFactor="0.75" costs="173.58"/>
+    </person>
+    <person id="ped24" type="ped_pedestrian" depart="1092.94">
+        <personTrip from="313014417#2" to="-78062035" walkFactor="0.75" costs="61.33"/>
+    </person>
+    <person id="ped25" type="ped_pedestrian" depart="1138.48">
+        <personTrip from="-78062035" to="-313014417#2" walkFactor="0.75" costs="204.88"/>
+    </person>
+    <person id="ped26" type="ped_pedestrian" depart="1184.02">
+        <personTrip from="-313014417#2" to="78062035" walkFactor="0.75" costs="173.58"/>
+    </person>
+    <person id="ped27" type="ped_pedestrian" depart="1229.56">
+        <personTrip from="313014417#2" to="313014417#2" walkFactor="0.75" costs="0.00"/>
+    </person>
+    <person id="ped28" type="ped_pedestrian" depart="1275.10">
+        <personTrip from="-313014417#1" to="313014418#2" walkFactor="0.75" costs="37.17"/>
+    </person>
+    <person id="ped29" type="ped_pedestrian" depart="1320.63">
+        <personTrip from="-313014417#1" to="-78062035" walkFactor="0.75" costs="37.17"/>
+    </person>
+    <person id="ped30" type="ped_pedestrian" depart="1366.17">
+        <personTrip from="78062035" to="313014417#2" walkFactor="0.75" costs="30.02"/>
+    </person>
+    <person id="ped31" type="ped_pedestrian" depart="1411.71">
+        <personTrip from="313014417#0" to="313014417#2" walkFactor="0.75" costs="39.27"/>
+    </person>
+    <person id="ped32" type="ped_pedestrian" depart="1457.25">
+        <personTrip from="4865914#0" to="313014418#2" walkFactor="0.75" costs="792.98"/>
+    </person>
+    <person id="ped33" type="ped_pedestrian" depart="1502.79">
+        <personTrip from="-313014417#2" to="-125496888#1" walkFactor="0.75" costs="228.35"/>
+    </person>
+    <person id="ped34" type="ped_pedestrian" depart="1548.33">
+        <personTrip from="-78062035" to="-313014417#2" walkFactor="0.75" costs="204.88"/>
+    </person>
+    <person id="ped35" type="ped_pedestrian" depart="1593.87">
+        <personTrip from="-313014417#2" to="78062035" walkFactor="0.75" costs="173.58"/>
+    </person>
+    <person id="ped36" type="ped_pedestrian" depart="1639.41">
+        <personTrip from="4865914#0" to="-78062035" walkFactor="0.75" costs="792.98"/>
+    </person>
+    <person id="ped37" type="ped_pedestrian" depart="1684.95">
+        <personTrip from="313014417#2" to="-78062035" walkFactor="0.75" costs="61.33"/>
+    </person>
+    <person id="ped38" type="ped_pedestrian" depart="1730.49">
+        <personTrip from="78062035" to="125496888#0" walkFactor="0.75" costs="220.27"/>
+    </person>
+    <person id="ped39" type="ped_pedestrian" depart="1776.03">
+        <personTrip from="-313014417#2" to="-313014417#2" walkFactor="0.75" costs="0.00"/>
+    </person>
+    <person id="ped40" type="ped_pedestrian" depart="1821.57">
+        <personTrip from="313014417#0" to="-313014417#2" walkFactor="0.75" costs="220.01"/>
+    </person>
+    <person id="ped41" type="ped_pedestrian" depart="1867.10">
+        <personTrip from="313014417#0" to="4865914#0" walkFactor="0.75" costs="773.06"/>
+    </person>
+    <person id="ped42" type="ped_pedestrian" depart="1912.64">
+        <personTrip from="-78062035" to="-313014417#2" walkFactor="0.75" costs="204.88"/>
+    </person>
+    <person id="ped43" type="ped_pedestrian" depart="1958.18">
+        <personTrip from="78062035" to="313014417#0" walkFactor="0.75" costs="57.08"/>
+    </person>
+    <person id="ped44" type="ped_pedestrian" depart="2003.72">
+        <personTrip from="-125496888#1" to="-125496888#1" walkFactor="0.75" costs="0.00"/>
+    </person>
+    <person id="ped45" type="ped_pedestrian" depart="2049.26">
+        <personTrip from="-313014417#1" to="313014417#2" walkFactor="0.75" costs="30.02"/>
+    </person>
+    <person id="ped46" type="ped_pedestrian" depart="2094.80">
+        <personTrip from="313014418#2" to="125496888#0" walkFactor="0.75" costs="186.69"/>
+    </person>
+    <person id="ped47" type="ped_pedestrian" depart="2140.34">
+        <personTrip from="-125496888#1" to="-78062035" walkFactor="0.75" costs="25.23"/>
+    </person>
+    <person id="ped48" type="ped_pedestrian" depart="2185.88">
+        <personTrip from="78062035" to="313014417#0" walkFactor="0.75" costs="57.08"/>
+    </person>
+    <person id="ped49" type="ped_pedestrian" depart="2231.42">
+        <personTrip from="78062035" to="4865914#0" walkFactor="0.75" costs="826.56"/>
+    </person>
+    <person id="ped50" type="ped_pedestrian" depart="2276.96">
+        <personTrip from="-125496888#1" to="313014418#2" walkFactor="0.75" costs="25.23"/>
+    </person>
+    <person id="ped51" type="ped_pedestrian" depart="2322.50">
+        <personTrip from="313014417#2" to="313014417#0" walkFactor="0.75" costs="39.27"/>
+    </person>
+    <person id="ped52" type="ped_pedestrian" depart="2368.03">
+        <personTrip from="-313014417#2" to="313014417#2" walkFactor="0.75" costs="180.74"/>
+    </person>
+    <person id="ped53" type="ped_pedestrian" depart="2413.57">
+        <personTrip from="-313014417#1" to="125496888#0" walkFactor="0.75" costs="216.23"/>
+    </person>
+    <person id="ped54" type="ped_pedestrian" depart="2459.11">
+        <personTrip from="125496888#0" to="78062035" walkFactor="0.75" costs="220.27"/>
+    </person>
+    <person id="ped55" type="ped_pedestrian" depart="2504.65">
+        <personTrip from="4865914#0" to="-313014417#2" walkFactor="0.75" costs="993.07"/>
+    </person>
+    <person id="ped56" type="ped_pedestrian" depart="2550.19">
+        <personTrip from="313014417#0" to="-313014417#1" walkFactor="0.75" costs="53.04"/>
+    </person>
+    <person id="ped57" type="ped_pedestrian" depart="2595.73">
+        <personTrip from="78062035" to="4865914#0" walkFactor="0.75" costs="826.56"/>
+    </person>
+    <person id="ped58" type="ped_pedestrian" depart="2641.27">
+        <personTrip from="-313014417#2" to="313014417#2" walkFactor="0.75" costs="180.74"/>
+    </person>
+    <person id="ped59" type="ped_pedestrian" depart="2686.81">
+        <personTrip from="313014417#2" to="-313014417#1" walkFactor="0.75" costs="30.02"/>
+    </person>
+    <person id="ped60" type="ped_pedestrian" depart="2732.35">
+        <personTrip from="313014418#2" to="313014417#0" walkFactor="0.75" costs="23.50"/>
+    </person>
+    <person id="ped61" type="ped_pedestrian" depart="2777.89">
+        <personTrip from="313014418#2" to="313014417#0" walkFactor="0.75" costs="23.50"/>
+    </person>
+    <person id="ped62" type="ped_pedestrian" depart="2823.43">
+        <personTrip from="-125496888#1" to="-78062035" walkFactor="0.75" costs="25.23"/>
+    </person>
+    <person id="ped63" type="ped_pedestrian" depart="2868.96">
+        <personTrip from="-125496888#1" to="78062035" walkFactor="0.75" costs="58.81"/>
+    </person>
+    <person id="ped64" type="ped_pedestrian" depart="2914.50">
+        <personTrip from="4865914#0" to="4865914#0" walkFactor="0.75" costs="0.00"/>
+    </person>
+    <person id="ped65" type="ped_pedestrian" depart="2960.04">
+        <personTrip from="-78062035" to="-125496888#1" walkFactor="0.75" costs="25.23"/>
+    </person>
+    <person id="ped66" type="ped_pedestrian" depart="3005.58">
+        <personTrip from="4865914#0" to="78062035" walkFactor="0.75" costs="826.56"/>
+    </person>
+    <person id="ped67" type="ped_pedestrian" depart="3051.12">
+        <personTrip from="-125496888#1" to="125496888#0" walkFactor="0.75" costs="165.29"/>
+    </person>
+    <person id="ped68" type="ped_pedestrian" depart="3096.66">
+        <personTrip from="-125496888#1" to="313014418#2" walkFactor="0.75" costs="25.23"/>
+    </person>
+    <person id="ped69" type="ped_pedestrian" depart="3142.20">
+        <personTrip from="313014418#2" to="-313014417#1" walkFactor="0.75" costs="37.17"/>
+    </person>
+    <person id="ped70" type="ped_pedestrian" depart="3187.74">
+        <personTrip from="125496888#0" to="313014417#0" walkFactor="0.75" costs="166.77"/>
+    </person>
+    <person id="ped71" type="ped_pedestrian" depart="3233.28">
+        <personTrip from="-313014417#2" to="4865914#0" walkFactor="0.75" costs="993.07"/>
+    </person>
+    <person id="ped72" type="ped_pedestrian" depart="3278.82">
+        <personTrip from="125496888#0" to="-313014417#2" walkFactor="0.75" costs="386.78"/>
+    </person>
+    <person id="ped73" type="ped_pedestrian" depart="3324.36">
+        <personTrip from="313014417#0" to="313014418#2" walkFactor="0.75" costs="23.50"/>
+    </person>
+    <person id="ped74" type="ped_pedestrian" depart="3369.90">
+        <personTrip from="-313014417#2" to="-78062035" walkFactor="0.75" costs="204.88"/>
+    </person>
+    <person id="ped75" type="ped_pedestrian" depart="3415.43">
+        <personTrip from="78062035" to="313014417#2" walkFactor="0.75" costs="30.02"/>
+    </person>
+    <person id="ped76" type="ped_pedestrian" depart="3460.97">
+        <personTrip from="125496888#0" to="313014417#0" walkFactor="0.75" costs="166.77"/>
+    </person>
+    <person id="ped77" type="ped_pedestrian" depart="3506.51">
+        <personTrip from="-313014417#1" to="-313014417#2" walkFactor="0.75" costs="173.58"/>
+    </person>
+    <person id="ped78" type="ped_pedestrian" depart="3552.05">
+        <personTrip from="-78062035" to="313014417#0" walkFactor="0.75" costs="23.50"/>
+    </person>
+    <person id="ped79" type="ped_pedestrian" depart="3597.59">
+        <personTrip from="-313014417#2" to="-313014417#2" walkFactor="0.75" costs="0.00"/>
+    </person>
+</routes>

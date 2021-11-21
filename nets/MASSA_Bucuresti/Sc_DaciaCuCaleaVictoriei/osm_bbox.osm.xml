@@ -1,0 +1,1674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.57.1 74a55df1">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2021-11-16T09:37:57Z"/>
+
+  <node id="31402063" lat="44.4519041" lon="26.0861425">
+    <tag k="button_operated" v="no"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:sound" v="no"/>
+    <tag k="traffic_signals:vibration" v="no"/>
+  </node>
+  <node id="31403551" lat="44.4432911" lon="26.0930658"/>
+  <node id="33389991" lat="44.4454896" lon="26.0910153">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="166358492" lat="44.4407809" lon="26.0955714">
+    <tag k="button_operated" v="no"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:sound" v="no"/>
+    <tag k="traffic_signals:vibration" v="no"/>
+  </node>
+  <node id="255063746" lat="44.4419573" lon="26.0942193"/>
+  <node id="255091918" lat="44.4413705" lon="26.0948492"/>
+  <node id="256013716" lat="44.4505825" lon="26.0874003"/>
+  <node id="256014910" lat="44.4483668" lon="26.0891100"/>
+  <node id="256016271" lat="44.4467140" lon="26.0902348">
+    <tag k="button_operated" v="no"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:sound" v="no"/>
+    <tag k="traffic_signals:vibration" v="no"/>
+  </node>
+  <node id="256017879" lat="44.4491883" lon="26.0885004"/>
+  <node id="256018037" lat="44.4443085" lon="26.0920066">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="256021051" lat="44.4423052" lon="26.0939037"/>
+  <node id="256021120" lat="44.4438427" lon="26.0924840"/>
+  <node id="318770897" lat="44.4461306" lon="26.0928824"/>
+  <node id="391086048" lat="44.4452412" lon="26.0914294"/>
+  <node id="391086049" lat="44.4447172" lon="26.0918737"/>
+  <node id="391086051" lat="44.4451009" lon="26.0926933"/>
+  <node id="391086052" lat="44.4455297" lon="26.0923412"/>
+  <node id="391086053" lat="44.4454220" lon="26.0920946"/>
+  <node id="391086054" lat="44.4451727" lon="26.0922997"/>
+  <node id="391086055" lat="44.4450081" lon="26.0919408"/>
+  <node id="391086056" lat="44.4453398" lon="26.0916672"/>
+  <node id="905944373" lat="44.4445240" lon="26.0916928"/>
+  <node id="905944377" lat="44.4443779" lon="26.0913598"/>
+  <node id="905944380" lat="44.4443702" lon="26.0909414"/>
+  <node id="905944382" lat="44.4447980" lon="26.0905848"/>
+  <node id="905944385" lat="44.4450508" lon="26.0911749"/>
+  <node id="905944388" lat="44.4449282" lon="26.0912821"/>
+  <node id="905944392" lat="44.4447444" lon="26.0908959"/>
+  <node id="905944396" lat="44.4445376" lon="26.0910676"/>
+  <node id="905944399" lat="44.4447291" lon="26.0915182"/>
+  <node id="917144791" lat="44.4452353" lon="26.0904833"/>
+  <node id="917144794" lat="44.4452355" lon="26.0907319"/>
+  <node id="917152194" lat="44.4472646" lon="26.0898704"/>
+  <node id="917152220" lat="44.4468136" lon="26.0901715">
+    <tag k="button_operated" v="no"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="no"/>
+    <tag k="traffic_signals:sound" v="no"/>
+    <tag k="traffic_signals:vibration" v="no"/>
+  </node>
+  <node id="1393093211" lat="44.4424781" lon="26.0937612"/>
+  <node id="1393747980" lat="44.4464770" lon="26.0903861"/>
+  <node id="1445062570" lat="44.4448714" lon="26.0906557"/>
+  <node id="1445062574" lat="44.4449514" lon="26.0909019"/>
+  <node id="1445062576" lat="44.4451382" lon="26.0907860"/>
+  <node id="1726036370" lat="44.4451970" lon="26.0911320">
+    <tag k="addr:city" v="București"/>
+    <tag k="addr:country" v="RO"/>
+    <tag k="addr:housenumber" v="115"/>
+    <tag k="addr:postcode" v="010071"/>
+    <tag k="addr:postcode:source" v="Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana"/>
+    <tag k="addr:street" v="Calea Victoriei"/>
+  </node>
+  <node id="1726036375" lat="44.4458995" lon="26.0907048">
+    <tag k="addr:city" v="București"/>
+    <tag k="addr:country" v="RO"/>
+    <tag k="addr:housenumber" v="121"/>
+    <tag k="addr:postcode" v="010071"/>
+    <tag k="addr:postcode:source" v="Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana"/>
+    <tag k="addr:street" v="Calea Victoriei"/>
+  </node>
+  <node id="1726036405" lat="44.4451122" lon="26.0915031">
+    <tag k="addr:city" v="București"/>
+    <tag k="addr:country" v="RO"/>
+    <tag k="addr:housenumber" v="154"/>
+    <tag k="addr:postcode" v="010096"/>
+    <tag k="addr:postcode:source" v="Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana"/>
+    <tag k="addr:street" v="Calea Victoriei"/>
+  </node>
+  <node id="1726036409" lat="44.4456976" lon="26.0910536">
+    <tag k="addr:city" v="București"/>
+    <tag k="addr:country" v="RO"/>
+    <tag k="addr:housenumber" v="174"/>
+    <tag k="addr:postcode" v="010097"/>
+    <tag k="addr:postcode:source" v="Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana"/>
+    <tag k="addr:street" v="Calea Victoriei"/>
+  </node>
+  <node id="1822986890" lat="44.4372356" lon="26.0977229">
+    <tag k="button_operated" v="no"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:island" v="no"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="source" v="Bing"/>
+    <tag k="tactile_paving" v="no"/>
+    <tag k="traffic_signals:sound" v="no"/>
+    <tag k="traffic_signals:vibration" v="no"/>
+  </node>
+  <node id="1909822621" lat="44.4493644" lon="26.0883650"/>
+  <node id="2159856311" lat="44.4431410" lon="26.0932026">
+    <tag k="button_operated" v="no"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="no"/>
+    <tag k="traffic_signals:sound" v="no"/>
+    <tag k="traffic_signals:vibration" v="no"/>
+  </node>
+  <node id="2159856314" lat="44.4441932" lon="26.0921178"/>
+  <node id="2159856320" lat="44.4441097" lon="26.0922030">
+    <tag k="button_operated" v="no"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="no"/>
+    <tag k="traffic_signals:sound" v="no"/>
+    <tag k="traffic_signals:vibration" v="no"/>
+  </node>
+  <node id="2159856323" lat="44.4446835" lon="26.0916869">
+    <tag k="crossing" v="uncontrolled"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="2263093986" lat="44.4452648" lon="26.0903484"/>
+  <node id="2263093991" lat="44.4453685" lon="26.0911127"/>
+  <node id="2407177836" lat="44.4388010" lon="26.0971937"/>
+  <node id="2407177839" lat="44.4383323" lon="26.0972701"/>
+  <node id="2407177841" lat="44.4391729" lon="26.0971857"/>
+  <node id="2923781902" lat="44.4445304" lon="26.0918148"/>
+  <node id="2923904483" lat="44.4499098" lon="26.0879576"/>
+  <node id="2990834637" lat="44.4446001" lon="26.0884439"/>
+  <node id="2990854727" lat="44.4446963" lon="26.0887203">
+    <tag k="bus" v="yes"/>
+    <tag k="name" v="Bd. Dacia"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="133"/>
+    <tag k="trolleybus" v="yes"/>
+  </node>
+  <node id="2990854732" lat="44.4446367" lon="26.0885497">
+    <tag k="bus" v="yes"/>
+    <tag k="name" v="Biblioteca Academiei Române"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="133, 168, 226"/>
+    <tag k="trolleybus" v="yes"/>
+  </node>
+  <node id="2990854835" lat="44.4458519" lon="26.0919488">
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Calea Victoriei"/>
+    <tag k="operator" v="RATB"/>
+    <tag k="public_transport" v="platform"/>
+    <tag k="ref" v="133, 168, 226"/>
+    <tag k="shelter" v="no"/>
+  </node>
+  <node id="2990854836" lat="44.4456313" lon="26.0916812">
+    <tag k="bench" v="no"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Calea Victoriei"/>
+    <tag k="operator" v="RATB"/>
+    <tag k="public_transport" v="platform"/>
+    <tag k="ref" v="133"/>
+    <tag k="shelter" v="no"/>
+  </node>
+  <node id="2990854837" lat="44.4457953" lon="26.0919001">
+    <tag k="bus" v="yes"/>
+    <tag k="name" v="Calea Victoriei"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="133"/>
+    <tag k="trolleybus" v="yes"/>
+  </node>
+  <node id="3170685167" lat="44.4453102" lon="26.0914063"/>
+  <node id="3170685168" lat="44.4454466" lon="26.0912307"/>
+  <node id="3170685169" lat="44.4456247" lon="26.0917083"/>
+  <node id="3170685170" lat="44.4455192" lon="26.0917915"/>
+  <node id="3170685171" lat="44.4454994" lon="26.0917514"/>
+  <node id="3170685172" lat="44.4454620" lon="26.0917853"/>
+  <node id="3170810205" lat="44.4458598" lon="26.0918588"/>
+  <node id="3170810208" lat="44.4456106" lon="26.0910823"/>
+  <node id="3170810210" lat="44.4460122" lon="26.0917632"/>
+  <node id="3170810211" lat="44.4456871" lon="26.0913193"/>
+  <node id="3170810212" lat="44.4457232" lon="26.0914314"/>
+  <node id="3170810214" lat="44.4458275" lon="26.0912304"/>
+  <node id="3170810216" lat="44.4457511" lon="26.0909934"/>
+  <node id="3170810217" lat="44.4458756" lon="26.0913358"/>
+  <node id="3262378101" lat="44.4506647" lon="26.0873215">
+    <tag k="button_operated" v="no"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="tactile_paving" v="no"/>
+    <tag k="traffic_signals" v="pedestrian_crossing"/>
+    <tag k="traffic_signals:sound" v="no"/>
+    <tag k="traffic_signals:vibration" v="no"/>
+  </node>
+  <node id="3262378158" lat="44.4517101" lon="26.0863324">
+    <tag k="button_operated" v="no"/>
+    <tag k="crossing" v="marked"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="no"/>
+    <tag k="traffic_signals:sound" v="no"/>
+  </node>
+  <node id="3509519749" lat="44.4468567" lon="26.0901427"/>
+  <node id="3670672579" lat="44.4454408" lon="26.0908714">
+    <tag k="button_operated" v="no"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:island" v="no"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="no"/>
+    <tag k="traffic_signals:sound" v="no"/>
+    <tag k="traffic_signals:vibration" v="no"/>
+  </node>
+  <node id="3670672580" lat="44.4454053" lon="26.0910831">
+    <tag k="button_operated" v="no"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="no"/>
+    <tag k="traffic_signals:sound" v="no"/>
+    <tag k="traffic_signals:vibration" v="no"/>
+  </node>
+  <node id="3670672581" lat="44.4455257" lon="26.0911218">
+    <tag k="button_operated" v="no"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:island" v="no"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="no"/>
+    <tag k="traffic_signals:sound" v="no"/>
+    <tag k="traffic_signals:vibration" v="no"/>
+  </node>
+  <node id="3670672582" lat="44.4456025" lon="26.0909434">
+    <tag k="button_operated" v="no"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="no"/>
+    <tag k="traffic_signals:sound" v="no"/>
+    <tag k="traffic_signals:vibration" v="no"/>
+  </node>
+  <node id="3670672595" lat="44.4483258" lon="26.0891408">
+    <tag k="button_operated" v="no"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="no"/>
+    <tag k="traffic_signals:sound" v="no"/>
+    <tag k="traffic_signals:vibration" v="no"/>
+  </node>
+  <node id="3670672596" lat="44.4484651" lon="26.0890415">
+    <tag k="button_operated" v="no"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="tactile_paving" v="no"/>
+    <tag k="traffic_signals:sound" v="no"/>
+    <tag k="traffic_signals:vibration" v="no"/>
+  </node>
+  <node id="4181292854" lat="44.4517487" lon="26.0864155"/>
+  <node id="4181292855" lat="44.4506908" lon="26.0874174"/>
+  <node id="4181292856" lat="44.4499976" lon="26.0879797"/>
+  <node id="4181292857" lat="44.4484600" lon="26.0891143"/>
+  <node id="4181292858" lat="44.4466910" lon="26.0903190"/>
+  <node id="4181292859" lat="44.4454404" lon="26.0911287"/>
+  <node id="4181292860" lat="44.4439013" lon="26.0924821"/>
+  <node id="4181292861" lat="44.4435433" lon="26.0928739"/>
+  <node id="4181292863" lat="44.4425591" lon="26.0938017"/>
+  <node id="4181292864" lat="44.4418339" lon="26.0944812"/>
+  <node id="4181292865" lat="44.4409195" lon="26.0955050"/>
+  <node id="4181292866" lat="44.4404511" lon="26.0961341"/>
+  <node id="4181292867" lat="44.4405991" lon="26.0965438"/>
+  <node id="4181292868" lat="44.4405539" lon="26.0966138"/>
+  <node id="4181292869" lat="44.4406415" lon="26.0969888"/>
+  <node id="4181292870" lat="44.4401226" lon="26.0972400"/>
+  <node id="4181292871" lat="44.4400166" lon="26.0969456"/>
+  <node id="4181292872" lat="44.4396045" lon="26.0972073"/>
+  <node id="4181292873" lat="44.4389412" lon="26.0971595"/>
+  <node id="4181292874" lat="44.4382165" lon="26.0973013"/>
+  <node id="4181292875" lat="44.4378442" lon="26.0974853"/>
+  <node id="4181292876" lat="44.4373359" lon="26.0976942"/>
+  <node id="4350754780" lat="44.4506229" lon="26.0874777"/>
+  <node id="4464824681" lat="44.4448878" lon="26.0906399"/>
+  <node id="4464824682" lat="44.4448740" lon="26.0906027"/>
+  <node id="4464824683" lat="44.4448979" lon="26.0905841"/>
+  <node id="4464824684" lat="44.4448780" lon="26.0905271"/>
+  <node id="4464824685" lat="44.4449659" lon="26.0904647"/>
+  <node id="4464824686" lat="44.4449494" lon="26.0904227"/>
+  <node id="4464824687" lat="44.4449944" lon="26.0903884"/>
+  <node id="4464824688" lat="44.4450030" lon="26.0908748"/>
+  <node id="4464824989" lat="44.4450123" lon="26.0909028"/>
+  <node id="4464824990" lat="44.4450918" lon="26.0908567"/>
+  <node id="4464824991" lat="44.4450831" lon="26.0908244"/>
+  <node id="5260416069" lat="44.4385279" lon="26.0972366"/>
+  <node id="5260416076" lat="44.4399509" lon="26.0969629"/>
+  <node id="5260416236" lat="44.4389814" lon="26.0971599"/>
+  <node id="5260418452" lat="44.4392997" lon="26.0971989"/>
+  <node id="5260418575" lat="44.4392331" lon="26.0971926"/>
+  <node id="5260421561" lat="44.4400999" lon="26.0971888"/>
+  <node id="5260432521" lat="44.4405932" lon="26.0965551"/>
+  <node id="5260432784" lat="44.4405947" lon="26.0965053"/>
+  <node id="5260432913" lat="44.4408106" lon="26.0956466"/>
+  <node id="5260439446" lat="44.4433004" lon="26.0931280"/>
+  <node id="5260439872" lat="44.4408913" lon="26.0954398">
+    <tag k="button_operated" v="no"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="no"/>
+    <tag k="traffic_signals:sound" v="no"/>
+    <tag k="traffic_signals:vibration" v="no"/>
+  </node>
+  <node id="5260444963" lat="44.4414195" lon="26.0949536"/>
+  <node id="5260444972" lat="44.4419984" lon="26.0943269"/>
+  <node id="5260446706" lat="44.4425134" lon="26.0938445"/>
+  <node id="5260447458" lat="44.4442093" lon="26.0921628"/>
+  <node id="5260449121" lat="44.4443078" lon="26.0920684"/>
+  <node id="5260449267" lat="44.4455111" lon="26.0910783"/>
+  <node id="5260451461" lat="44.4464902" lon="26.0904500"/>
+  <node id="5260452381" lat="44.4472836" lon="26.0899359"/>
+  <node id="5260452549" lat="44.4468752" lon="26.0902032"/>
+  <node id="5260476757" lat="44.4478390" lon="26.0895475"/>
+  <node id="5260476777" lat="44.4483866" lon="26.0891704"/>
+  <node id="5260479126" lat="44.4492145" lon="26.0885718"/>
+  <node id="5280707568" lat="44.4377667" lon="26.0975314"/>
+  <node id="5569014621" lat="44.4448647" lon="26.0916060"/>
+  <node id="6252576217" lat="44.4420349" lon="26.0941473">
+    <tag k="crossing" v="uncontrolled"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="6293833395" lat="44.4399122" lon="26.0969897"/>
+  <node id="6293833396" lat="44.4393274" lon="26.0971990"/>
+  <node id="6318936113" lat="44.4382636" lon="26.0972877"/>
+  <node id="6353654153" lat="44.4477772" lon="26.0895441"/>
+  <node id="6353654330" lat="44.4477829" lon="26.0895867"/>
+  <node id="6669799616" lat="44.4460447" lon="26.0926308"/>
+  <node id="6929906632" lat="44.4380518" lon="26.0973725"/>
+  <node id="6929906633" lat="44.4381261" lon="26.0973359"/>
+  <node id="7151109943" lat="44.4453391" lon="26.0912983">
+    <tag k="addr:housenumber" v="166-168"/>
+    <tag k="addr:street" v="Calea Victoriei"/>
+  </node>
+  <node id="7609321656" lat="44.4464588" lon="26.0895773"/>
+  <node id="7609321657" lat="44.4464249" lon="26.0886247"/>
+  <node id="7609321658" lat="44.4457386" lon="26.0885512"/>
+  <node id="7609321659" lat="44.4458649" lon="26.0889433"/>
+  <node id="7609321660" lat="44.4454854" lon="26.0896615"/>
+  <node id="7609321661" lat="44.4462799" lon="26.0892536"/>
+  <node id="7609321662" lat="44.4458300" lon="26.0895406"/>
+  <node id="7609321663" lat="44.4461320" lon="26.0904796"/>
+  <node id="7609321664" lat="44.4456471" lon="26.0907915"/>
+  <node id="7609321665" lat="44.4452981" lon="26.0897798"/>
+  <node id="7609321666" lat="44.4453827" lon="26.0893422"/>
+  <node id="7609321667" lat="44.4456008" lon="26.0892045"/>
+  <node id="7609321668" lat="44.4455755" lon="26.0891260"/>
+  <node id="7609321669" lat="44.4461490" lon="26.0885225"/>
+  <node id="7609321670" lat="44.4461533" lon="26.0886436"/>
+  <node id="7609321671" lat="44.4464204" lon="26.0897387"/>
+  <node id="7609321672" lat="44.4464955" lon="26.0896914"/>
+  <node id="7612089227" lat="44.4500682" lon="26.0878268"/>
+  <node id="8144021829" lat="44.4515853" lon="26.0864505">
+    <tag k="addr:city" v="București"/>
+    <tag k="addr:housenumber" v="155"/>
+    <tag k="addr:postcode" v="010073"/>
+    <tag k="addr:street" v="Calea Victoriei"/>
+    <tag k="amenity" v="taxi"/>
+    <tag k="capacity" v="4"/>
+    <tag k="name" v="Piața Victoriei"/>
+  </node>
+  <node id="8144021830" lat="44.4514502" lon="26.0865783">
+    <tag k="bench" v="yes"/>
+    <tag k="bin" v="yes"/>
+    <tag k="bus" v="yes"/>
+    <tag k="departures_board" v="no"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Piața Victoriei"/>
+    <tag k="network" v="Societatea de Transport București"/>
+    <tag k="network:short" v="STB"/>
+    <tag k="network:wikidata" v="Q2280353"/>
+    <tag k="network:wikipedia" v="ro:Societatea de Transport București"/>
+    <tag k="operator" v="STB"/>
+    <tag k="public_transport" v="platform"/>
+    <tag k="ref" v="361"/>
+    <tag k="shelter" v="yes"/>
+  </node>
+  <node id="8419250537" lat="44.4440409" lon="26.0922745">
+    <tag k="bus" v="yes"/>
+    <tag k="name" v="Calea Griviței"/>
+    <tag k="public_transport" v="stop_position"/>
+  </node>
+  <node id="8419250539" lat="44.4480602" lon="26.0893375">
+    <tag k="bus" v="yes"/>
+    <tag k="name" v="Gheorghe Manu"/>
+    <tag k="public_transport" v="stop_position"/>
+  </node>
+  <node id="8426585661" lat="44.4416158" lon="26.0945859"/>
+  <node id="8426585664" lat="44.4413133" lon="26.0949167"/>
+  <node id="8484967598" lat="44.4452231" lon="26.0906162"/>
+  <node id="9173232878" lat="44.4445520" lon="26.0917967"/>
+  <node id="9173232879" lat="44.4445771" lon="26.0918448"/>
+  <node id="9173232881" lat="44.4458821" lon="26.0921543"/>
+  <node id="9195969205" lat="44.4385912" lon="26.0972274"/>
+  <node id="9195969207" lat="44.4387205" lon="26.0972095"/>
+  <node id="9195969208" lat="44.4381719" lon="26.0973184"/>
+  <node id="9195969214" lat="44.4401670" lon="26.0972525"/>
+  <node id="9195969215" lat="44.4401531" lon="26.0972567"/>
+  <node id="9195969216" lat="44.4401396" lon="26.0972549"/>
+  <node id="9195987817" lat="44.4401297" lon="26.0972487"/>
+  <node id="9195987818" lat="44.4406528" lon="26.0969707"/>
+  <node id="9195987819" lat="44.4406576" lon="26.0969338"/>
+  <node id="9195987820" lat="44.4406536" lon="26.0969128"/>
+  <node id="9195987821" lat="44.4405465" lon="26.0966915"/>
+  <node id="9195987822" lat="44.4405428" lon="26.0966650"/>
+  <node id="9195987823" lat="44.4405454" lon="26.0966376"/>
+  <node id="9195987824" lat="44.4405992" lon="26.0965178"/>
+  <node id="9195987825" lat="44.4404501" lon="26.0962237"/>
+  <node id="9195987826" lat="44.4404432" lon="26.0961824"/>
+  <node id="9195987827" lat="44.4404458" lon="26.0962061"/>
+  <node id="9195987828" lat="44.4404443" lon="26.0961587"/>
+  <node id="9195987829" lat="44.4406011" lon="26.0965308"/>
+  <node id="9195987830" lat="44.4406584" lon="26.0969516"/>
+  <node id="9195987839" lat="44.4400070" lon="26.0969410"/>
+  <node id="9195987840" lat="44.4399939" lon="26.0969425"/>
+  <node id="9195987843" lat="44.4398293" lon="26.0970430"/>
+  <node id="9195987844" lat="44.4397463" lon="26.0971292"/>
+  <node id="9195987845" lat="44.4398075" lon="26.0970628"/>
+  <node id="9195987846" lat="44.4396819" lon="26.0971757"/>
+  <node id="9195987847" lat="44.4396318" lon="26.0972010"/>
+  <node id="9195987848" lat="44.4397283" lon="26.0971469"/>
+  <way id="4865914">
+    <nd ref="31402063"/>
+    <nd ref="3262378158"/>
+    <nd ref="8144021829"/>
+    <nd ref="8144021830"/>
+    <nd ref="3262378101"/>
+    <nd ref="256013716"/>
+    <nd ref="7612089227"/>
+    <nd ref="2923904483"/>
+    <nd ref="1909822621"/>
+    <nd ref="256017879"/>
+    <nd ref="3670672596"/>
+    <nd ref="256014910"/>
+    <nd ref="3670672595"/>
+    <nd ref="8419250539"/>
+    <nd ref="6353654153"/>
+    <nd ref="917152194"/>
+    <nd ref="3509519749"/>
+    <nd ref="917152220"/>
+    <nd ref="256016271"/>
+    <nd ref="1393747980"/>
+    <nd ref="3670672582"/>
+    <nd ref="33389991"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="motor_vehicle:conditional" v="no@May 29-Oct 17 Sa,Su 11:00-22:00"/>
+    <tag k="name" v="Calea Victoriei"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="smoothness" v="excellent"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="34117702">
+    <nd ref="391086048"/>
+    <nd ref="391086049"/>
+    <nd ref="391086051"/>
+    <nd ref="391086052"/>
+    <nd ref="391086053"/>
+    <nd ref="391086054"/>
+    <nd ref="391086055"/>
+    <nd ref="391086056"/>
+    <nd ref="391086048"/>
+    <tag k="building" v="yes"/>
+  </way>
+  <way id="76914269">
+    <nd ref="905944373"/>
+    <nd ref="905944377"/>
+    <nd ref="905944380"/>
+    <nd ref="905944382"/>
+    <nd ref="905944385"/>
+    <nd ref="905944388"/>
+    <nd ref="905944392"/>
+    <nd ref="905944396"/>
+    <nd ref="905944399"/>
+    <nd ref="905944373"/>
+    <tag k="building" v="yes"/>
+    <tag k="building:levels" v="3"/>
+    <tag k="castle_type" v="palace"/>
+    <tag k="historic" v="castle"/>
+    <tag k="name" v="Palatul Romanit"/>
+  </way>
+  <way id="78062035">
+    <nd ref="2263093986"/>
+    <nd ref="917144791"/>
+    <nd ref="8484967598"/>
+    <nd ref="917144794"/>
+    <nd ref="2263093991"/>
+    <tag k="access" v="destination"/>
+    <tag k="fixme" v="which roads is this connected to?"/>
+    <tag k="highway" v="service"/>
+    <tag k="is_in:city" v="București"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="service" v="parking_aisle"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="125496888">
+    <nd ref="318770897"/>
+    <nd ref="6669799616"/>
+    <nd ref="9173232881"/>
+    <nd ref="2990854837"/>
+    <nd ref="3670672581"/>
+    <nd ref="5260449267"/>
+    <nd ref="33389991"/>
+    <tag k="highway" v="primary"/>
+    <tag k="is_in:city" v="București"/>
+    <tag k="lanes" v="4"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="name" v="Bulevardul Dacia"/>
+    <tag k="oneway" v="no"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="131269866">
+    <nd ref="4464824687"/>
+    <nd ref="4464824686"/>
+    <nd ref="4464824685"/>
+    <nd ref="4464824684"/>
+    <nd ref="4464824683"/>
+    <nd ref="4464824682"/>
+    <nd ref="4464824681"/>
+    <nd ref="1445062570"/>
+    <nd ref="1445062574"/>
+    <nd ref="4464824688"/>
+    <nd ref="4464824989"/>
+    <nd ref="4464824990"/>
+    <nd ref="4464824991"/>
+    <nd ref="1445062576"/>
+    <nd ref="4464824687"/>
+    <tag k="addr:city" v="București"/>
+    <tag k="addr:country" v="RO"/>
+    <tag k="addr:housenumber" v="115"/>
+    <tag k="addr:postcode" v="020055"/>
+    <tag k="addr:postcode:source" v="Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana"/>
+    <tag k="addr:street" v="Bulevardul Dacia"/>
+    <tag k="building" v="yes"/>
+    <tag k="building:levels" v="2"/>
+    <tag k="historic" v="building"/>
+    <tag k="name" v="Casa Monteoru"/>
+    <tag k="roof:levels" v="1"/>
+    <tag k="roof:shape" v="half-hipped"/>
+  </way>
+  <way id="311426510">
+    <nd ref="3170685167"/>
+    <nd ref="3170685168"/>
+    <nd ref="3170685169"/>
+    <nd ref="3170685170"/>
+    <nd ref="3170685171"/>
+    <nd ref="3170685172"/>
+    <nd ref="3170685167"/>
+    <tag k="building" v="yes"/>
+    <tag k="name" v="Golden Tulip"/>
+    <tag k="tourism" v="hotel"/>
+    <tag k="wheelchair" v="limited"/>
+  </way>
+  <way id="311433376">
+    <nd ref="3170810216"/>
+    <nd ref="3170810214"/>
+    <nd ref="3170810211"/>
+    <nd ref="3170810208"/>
+    <nd ref="3170810216"/>
+    <tag k="building" v="yes"/>
+  </way>
+  <way id="311433377">
+    <nd ref="3170810217"/>
+    <nd ref="3170810210"/>
+    <nd ref="3170810205"/>
+    <nd ref="3170810212"/>
+    <nd ref="3170810217"/>
+    <tag k="building" v="yes"/>
+  </way>
+  <way id="313014417">
+    <nd ref="33389991"/>
+    <nd ref="3670672579"/>
+    <nd ref="2263093986"/>
+    <nd ref="2990854727"/>
+    <nd ref="2990854732"/>
+    <nd ref="2990834637"/>
+    <tag k="highway" v="primary"/>
+    <tag k="is_in:city" v="București"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lanes:backward" v="2"/>
+    <tag k="lanes:forward" v="2"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="name" v="Bulevardul Dacia"/>
+    <tag k="oneway" v="no"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="313014418">
+    <nd ref="33389991"/>
+    <nd ref="3670672580"/>
+    <nd ref="2263093991"/>
+    <nd ref="2159856323"/>
+    <nd ref="9173232878"/>
+    <nd ref="2923781902"/>
+    <nd ref="256018037"/>
+    <nd ref="2159856314"/>
+    <nd ref="2159856320"/>
+    <nd ref="8419250537"/>
+    <nd ref="256021120"/>
+    <nd ref="31403551"/>
+    <nd ref="2159856311"/>
+    <nd ref="1393093211"/>
+    <nd ref="256021051"/>
+    <nd ref="6252576217"/>
+    <nd ref="255063746"/>
+    <nd ref="8426585661"/>
+    <nd ref="255091918"/>
+    <nd ref="8426585664"/>
+    <nd ref="5260439872"/>
+    <nd ref="166358492"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="is_in:city" v="București"/>
+    <tag k="lanes" v="3"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="motor_vehicle:conditional" v="no@May 29-Oct 17 Sa,Su 11:00-22:00"/>
+    <tag k="name" v="Calea Victoriei"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="smoothness" v="excellent"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="417612252">
+    <nd ref="4181292854"/>
+    <nd ref="4181292855"/>
+    <nd ref="4350754780"/>
+    <nd ref="4181292856"/>
+    <nd ref="5260479126"/>
+    <nd ref="4181292857"/>
+    <nd ref="5260476777"/>
+    <nd ref="5260476757"/>
+    <nd ref="6353654330"/>
+    <nd ref="5260452381"/>
+    <nd ref="5260452549"/>
+    <nd ref="4181292858"/>
+    <nd ref="5260451461"/>
+    <nd ref="5260449267"/>
+    <nd ref="4181292859"/>
+    <nd ref="5569014621"/>
+    <nd ref="9173232879"/>
+    <nd ref="5260449121"/>
+    <nd ref="5260447458"/>
+    <nd ref="4181292860"/>
+    <nd ref="4181292861"/>
+    <nd ref="5260439446"/>
+    <nd ref="4181292863"/>
+    <nd ref="5260446706"/>
+    <nd ref="5260444972"/>
+    <nd ref="4181292864"/>
+    <nd ref="5260444963"/>
+    <nd ref="4181292865"/>
+    <nd ref="5260432913"/>
+    <nd ref="4181292866"/>
+    <nd ref="9195987828"/>
+    <nd ref="9195987826"/>
+    <nd ref="9195987827"/>
+    <nd ref="9195987825"/>
+    <nd ref="5260432784"/>
+    <nd ref="9195987824"/>
+    <nd ref="9195987829"/>
+    <nd ref="4181292867"/>
+    <nd ref="5260432521"/>
+    <nd ref="4181292868"/>
+    <nd ref="9195987823"/>
+    <nd ref="9195987822"/>
+    <nd ref="9195987821"/>
+    <nd ref="9195987820"/>
+    <nd ref="9195987819"/>
+    <nd ref="9195987830"/>
+    <nd ref="9195987818"/>
+    <nd ref="4181292869"/>
+    <nd ref="9195969214"/>
+    <nd ref="9195969215"/>
+    <nd ref="9195969216"/>
+    <nd ref="9195987817"/>
+    <nd ref="4181292870"/>
+    <nd ref="5260421561"/>
+    <nd ref="4181292871"/>
+    <nd ref="9195987839"/>
+    <nd ref="9195987840"/>
+    <nd ref="5260416076"/>
+    <nd ref="6293833395"/>
+    <nd ref="9195987843"/>
+    <nd ref="9195987845"/>
+    <nd ref="9195987844"/>
+    <nd ref="9195987848"/>
+    <nd ref="9195987846"/>
+    <nd ref="9195987847"/>
+    <nd ref="4181292872"/>
+    <nd ref="6293833396"/>
+    <nd ref="5260418452"/>
+    <nd ref="5260418575"/>
+    <nd ref="2407177841"/>
+    <nd ref="5260416236"/>
+    <nd ref="4181292873"/>
+    <nd ref="2407177836"/>
+    <nd ref="9195969207"/>
+    <nd ref="9195969205"/>
+    <nd ref="5260416069"/>
+    <nd ref="2407177839"/>
+    <nd ref="6318936113"/>
+    <nd ref="4181292874"/>
+    <nd ref="9195969208"/>
+    <nd ref="6929906633"/>
+    <nd ref="6929906632"/>
+    <nd ref="4181292875"/>
+    <nd ref="5280707568"/>
+    <nd ref="4181292876"/>
+    <nd ref="1822986890"/>
+    <tag k="foot" v="no"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="name" v="Calea Victoriei"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="width" v="2.6"/>
+  </way>
+  <way id="814608567">
+    <nd ref="7609321656"/>
+    <nd ref="7609321657"/>
+    <nd ref="7609321670"/>
+    <nd ref="7609321669"/>
+    <nd ref="7609321658"/>
+    <nd ref="7609321659"/>
+    <nd ref="7609321668"/>
+    <nd ref="7609321667"/>
+    <nd ref="7609321666"/>
+    <nd ref="7609321660"/>
+    <nd ref="7609321665"/>
+    <nd ref="7609321664"/>
+    <nd ref="7609321663"/>
+    <nd ref="7609321662"/>
+    <nd ref="7609321661"/>
+    <nd ref="7609321671"/>
+    <nd ref="7609321672"/>
+    <nd ref="7609321656"/>
+    <tag k="access" v="private"/>
+    <tag k="garden:type" v="community"/>
+    <tag k="leisure" v="garden"/>
+  </way>
+  <relation id="1706836">
+    <member type="way" ref="125496888" role="from"/>
+    <member type="node" ref="318770897" role="via"/>
+    <member type="way" ref="125496883" role="to"/>
+    <tag k="restriction" v="only_straight_on"/>
+    <tag k="type" v="restriction"/>
+  </relation>
+  <relation id="1706842">
+    <member type="way" ref="5013558" role="from"/>
+    <member type="node" ref="318770897" role="via"/>
+    <member type="way" ref="125496888" role="to"/>
+    <tag k="restriction" v="only_right_turn"/>
+    <tag k="type" v="restriction"/>
+  </relation>
+  <relation id="3927355">
+    <member type="node" ref="2159723805" role="stop"/>
+    <member type="node" ref="1531915628" role="platform"/>
+    <member type="node" ref="2990819617" role="stop"/>
+    <member type="node" ref="2990819618" role="platform"/>
+    <member type="node" ref="2519078588" role="stop"/>
+    <member type="node" ref="2990819619" role="platform"/>
+    <member type="node" ref="2519055695" role="stop"/>
+    <member type="node" ref="2519055694" role="platform"/>
+    <member type="node" ref="2990819616" role="stop"/>
+    <member type="node" ref="2990819615" role="platform"/>
+    <member type="node" ref="2990827632" role="stop"/>
+    <member type="node" ref="2990829833" role="platform"/>
+    <member type="node" ref="2362383216" role="stop"/>
+    <member type="node" ref="580978011" role="platform"/>
+    <member type="node" ref="2990833334" role="stop"/>
+    <member type="node" ref="2990833333" role="platform"/>
+    <member type="node" ref="2990854727" role="stop"/>
+    <member type="node" ref="2990854726" role="platform"/>
+    <member type="node" ref="2990854837" role="stop"/>
+    <member type="node" ref="2990854836" role="platform"/>
+    <member type="node" ref="2990854846" role="stop"/>
+    <member type="node" ref="2990854845" role="platform"/>
+    <member type="node" ref="2519507105" role="stop"/>
+    <member type="node" ref="2519507104" role="platform"/>
+    <member type="node" ref="582481089" role="stop"/>
+    <member type="node" ref="2519478807" role="platform"/>
+    <member type="node" ref="582481154" role="stop"/>
+    <member type="node" ref="2519478806" role="platform"/>
+    <member type="node" ref="2383419052" role="stop"/>
+    <member type="node" ref="2519478803" role="platform"/>
+    <member type="node" ref="2389982902" role="stop"/>
+    <member type="node" ref="582484012" role="platform"/>
+    <member type="node" ref="2990854840" role="stop"/>
+    <member type="node" ref="2990854839" role="platform"/>
+    <member type="node" ref="2990854841" role="stop"/>
+    <member type="node" ref="2990854842" role="platform"/>
+    <member type="node" ref="2990854728" role="stop"/>
+    <member type="node" ref="2990854729" role="platform"/>
+    <member type="node" ref="2990857991" role="stop"/>
+    <member type="node" ref="2990857992" role="platform"/>
+    <member type="node" ref="2990857993" role="stop"/>
+    <member type="node" ref="2990857994" role="platform"/>
+    <member type="node" ref="2990861796" role="stop"/>
+    <member type="node" ref="2990861797" role="platform"/>
+    <member type="node" ref="2990861791" role="stop"/>
+    <member type="node" ref="2990861790" role="platform"/>
+    <member type="node" ref="2990872683" role="stop"/>
+    <member type="node" ref="2990872682" role="platform"/>
+    <member type="node" ref="2990848384" role="stop"/>
+    <member type="node" ref="2990848383" role="platform"/>
+    <member type="node" ref="103594277" role="stop_exit_only"/>
+    <member type="node" ref="2395202293" role="platform_exit_only"/>
+    <member type="node" ref="1215409066" role="platform"/>
+    <member type="node" ref="8876540369" role="stop"/>
+    <member type="way" ref="541925274" role=""/>
+    <member type="way" ref="205969671" role=""/>
+    <member type="way" ref="139788054" role=""/>
+    <member type="way" ref="106797418" role=""/>
+    <member type="way" ref="295382931" role=""/>
+    <member type="way" ref="139758829" role=""/>
+    <member type="way" ref="668679789" role=""/>
+    <member type="way" ref="668676693" role=""/>
+    <member type="way" ref="668679784" role=""/>
+    <member type="way" ref="50586387" role=""/>
+    <member type="way" ref="668588452" role=""/>
+    <member type="way" ref="529355534" role=""/>
+    <member type="way" ref="668176609" role=""/>
+    <member type="way" ref="668176608" role=""/>
+    <member type="way" ref="668176607" role=""/>
+    <member type="way" ref="668176611" role=""/>
+    <member type="way" ref="668176610" role=""/>
+    <member type="way" ref="668176612" role=""/>
+    <member type="way" ref="668176613" role=""/>
+    <member type="way" ref="154229441" role=""/>
+    <member type="way" ref="668175351" role=""/>
+    <member type="way" ref="666958777" role=""/>
+    <member type="way" ref="12471840" role=""/>
+    <member type="way" ref="240625191" role=""/>
+    <member type="way" ref="84489109" role=""/>
+    <member type="way" ref="84489248" role=""/>
+    <member type="way" ref="84489009" role=""/>
+    <member type="way" ref="23555683" role=""/>
+    <member type="way" ref="668510236" role=""/>
+    <member type="way" ref="227617363" role=""/>
+    <member type="way" ref="668510237" role=""/>
+    <member type="way" ref="668510234" role=""/>
+    <member type="way" ref="450735440" role=""/>
+    <member type="way" ref="295382937" role=""/>
+    <member type="way" ref="669144908" role=""/>
+    <member type="way" ref="668532083" role=""/>
+    <member type="way" ref="244923333" role=""/>
+    <member type="way" ref="289213552" role=""/>
+    <member type="way" ref="669189552" role=""/>
+    <member type="way" ref="244656973" role=""/>
+    <member type="way" ref="669221202" role=""/>
+    <member type="way" ref="191987909" role=""/>
+    <member type="way" ref="289213551" role=""/>
+    <member type="way" ref="191987908" role=""/>
+    <member type="way" ref="295377943" role=""/>
+    <member type="way" ref="313014417" role=""/>
+    <member type="way" ref="125496888" role=""/>
+    <member type="way" ref="125496883" role=""/>
+    <member type="way" ref="231435896" role=""/>
+    <member type="way" ref="778823268" role=""/>
+    <member type="way" ref="778823266" role=""/>
+    <member type="way" ref="778823265" role=""/>
+    <member type="way" ref="448792279" role=""/>
+    <member type="way" ref="448266583" role=""/>
+    <member type="way" ref="448266586" role=""/>
+    <member type="way" ref="119238380" role=""/>
+    <member type="way" ref="723802758" role=""/>
+    <member type="way" ref="669156737" role=""/>
+    <member type="way" ref="232079825" role=""/>
+    <member type="way" ref="373482266" role=""/>
+    <member type="way" ref="229796699" role=""/>
+    <member type="way" ref="229673024" role=""/>
+    <member type="way" ref="227364752" role=""/>
+    <member type="way" ref="229673022" role=""/>
+    <member type="way" ref="227364750" role=""/>
+    <member type="way" ref="671635092" role=""/>
+    <member type="way" ref="671635091" role=""/>
+    <member type="way" ref="894634967" role=""/>
+    <member type="way" ref="229673021" role=""/>
+    <member type="way" ref="15489185" role=""/>
+    <member type="way" ref="229238562" role=""/>
+    <member type="way" ref="853007858" role=""/>
+    <member type="way" ref="853007856" role=""/>
+    <member type="way" ref="19997543" role=""/>
+    <member type="way" ref="37190330" role=""/>
+    <member type="way" ref="28877320" role=""/>
+    <member type="way" ref="45729668" role=""/>
+    <member type="way" ref="206009884" role=""/>
+    <member type="way" ref="229947582" role=""/>
+    <member type="way" ref="310025094" role=""/>
+    <member type="way" ref="27844756" role=""/>
+    <member type="way" ref="27014190" role=""/>
+    <member type="way" ref="670511726" role=""/>
+    <member type="way" ref="23124121" role=""/>
+    <member type="way" ref="65746828" role=""/>
+    <member type="way" ref="210831345" role=""/>
+    <member type="way" ref="896038403" role=""/>
+    <member type="way" ref="896038402" role=""/>
+    <member type="way" ref="896038401" role=""/>
+    <member type="way" ref="896038400" role=""/>
+    <member type="way" ref="896038399" role=""/>
+    <member type="way" ref="896038397" role=""/>
+    <member type="way" ref="206005021" role=""/>
+    <member type="way" ref="853720840" role=""/>
+    <member type="way" ref="853720839" role=""/>
+    <member type="way" ref="23496261" role=""/>
+    <member type="way" ref="853730478" role=""/>
+    <member type="way" ref="853730479" role=""/>
+    <member type="way" ref="665607134" role=""/>
+    <member type="way" ref="665607139" role=""/>
+    <member type="way" ref="853720838" role=""/>
+    <member type="way" ref="665607143" role=""/>
+    <member type="way" ref="665607147" role=""/>
+    <member type="way" ref="853722783" role=""/>
+    <member type="way" ref="665607151" role=""/>
+    <member type="way" ref="853722784" role=""/>
+    <member type="way" ref="225937833" role=""/>
+    <member type="way" ref="259027381" role=""/>
+    <member type="way" ref="231738092" role=""/>
+    <member type="way" ref="226204731" role=""/>
+    <member type="way" ref="542167320" role=""/>
+    <member type="way" ref="260585616" role=""/>
+    <member type="way" ref="448661738" role=""/>
+    <member type="way" ref="448661742" role=""/>
+    <member type="way" ref="309399044" role=""/>
+    <member type="way" ref="448661741" role=""/>
+    <member type="way" ref="448661743" role=""/>
+    <member type="way" ref="448661740" role=""/>
+    <member type="way" ref="309399042" role=""/>
+    <tag k="from" v="Gara Basarab"/>
+    <tag k="name" v="Bus 133: Gara Basarab =&gt; Bd. Tineretului"/>
+    <tag k="network" v="Societatea de Transport București"/>
+    <tag k="network:short" v="STB"/>
+    <tag k="network:wikidata" v="Q2280353"/>
+    <tag k="network:wikipedia" v="ro:Societatea de Transport București"/>
+    <tag k="operator" v="RATB"/>
+    <tag k="public_transport:version" v="2"/>
+    <tag k="ref" v="133"/>
+    <tag k="route" v="bus"/>
+    <tag k="to" v="Bulevardul Tineretului"/>
+    <tag k="type" v="route"/>
+  </relation>
+  <relation id="3927367">
+    <member type="way" ref="295377945" role="from"/>
+    <member type="way" ref="313014417" role="to"/>
+    <member type="node" ref="2990834637" role="via"/>
+    <tag k="restriction" v="only_right_turn"/>
+    <tag k="type" v="restriction"/>
+  </relation>
+  <relation id="3927447">
+    <member type="node" ref="8876540369" role="stop_entry_only"/>
+    <member type="node" ref="1215409066" role="platform_entry_only"/>
+    <member type="node" ref="2990848385" role="stop"/>
+    <member type="node" ref="2990848386" role="platform"/>
+    <member type="node" ref="2990872684" role="stop"/>
+    <member type="node" ref="2990872685" role="platform"/>
+    <member type="node" ref="2990861792" role="stop"/>
+    <member type="node" ref="2990861793" role="platform"/>
+    <member type="node" ref="2990861795" role="stop"/>
+    <member type="node" ref="2990861794" role="platform"/>
+    <member type="node" ref="2990857996" role="stop"/>
+    <member type="node" ref="2990857995" role="platform"/>
+    <member type="node" ref="2990857990" role="stop"/>
+    <member type="node" ref="1215409035" role="platform"/>
+    <member type="node" ref="2990854731" role="stop"/>
+    <member type="node" ref="2990854730" role="platform"/>
+    <member type="node" ref="2990854843" role="stop"/>
+    <member type="node" ref="2990854844" role="platform"/>
+    <member type="node" ref="2990854840" role="stop"/>
+    <member type="node" ref="2990854838" role="platform"/>
+    <member type="node" ref="2389982905" role="stop"/>
+    <member type="node" ref="590204253" role="platform"/>
+    <member type="node" ref="590206839" role="stop"/>
+    <member type="node" ref="2519478804" role="platform"/>
+    <member type="node" ref="590208133" role="stop"/>
+    <member type="node" ref="2519478805" role="platform"/>
+    <member type="node" ref="2352303603" role="stop"/>
+    <member type="node" ref="2519478808" role="platform"/>
+    <member type="node" ref="31402322" role="stop"/>
+    <member type="node" ref="571386276" role="platform"/>
+    <member type="node" ref="2990854835" role="platform"/>
+    <member type="node" ref="2990854732" role="stop"/>
+    <member type="node" ref="2990854833" role="platform"/>
+    <member type="node" ref="2990887289" role="stop"/>
+    <member type="node" ref="2990887290" role="platform"/>
+    <member type="node" ref="2990887287" role="stop"/>
+    <member type="node" ref="2990887288" role="platform"/>
+    <member type="node" ref="2388033146" role="stop"/>
+    <member type="node" ref="1531915638" role="platform"/>
+    <member type="node" ref="2159723805" role="stop"/>
+    <member type="node" ref="1531915628" role="platform"/>
+    <member type="way" ref="665128904" role=""/>
+    <member type="way" ref="541925275" role=""/>
+    <member type="way" ref="226204732" role=""/>
+    <member type="way" ref="853722784" role=""/>
+    <member type="way" ref="665607151" role=""/>
+    <member type="way" ref="853722783" role=""/>
+    <member type="way" ref="665607147" role=""/>
+    <member type="way" ref="665607143" role=""/>
+    <member type="way" ref="853720838" role=""/>
+    <member type="way" ref="665607139" role=""/>
+    <member type="way" ref="665607134" role=""/>
+    <member type="way" ref="853730479" role=""/>
+    <member type="way" ref="853730478" role=""/>
+    <member type="way" ref="23496261" role=""/>
+    <member type="way" ref="853720839" role=""/>
+    <member type="way" ref="853720840" role=""/>
+    <member type="way" ref="448785868" role=""/>
+    <member type="way" ref="206005020" role=""/>
+    <member type="way" ref="448785867" role=""/>
+    <member type="way" ref="227336833" role=""/>
+    <member type="way" ref="314463807" role=""/>
+    <member type="way" ref="314463989" role=""/>
+    <member type="way" ref="314463873" role=""/>
+    <member type="way" ref="666135204" role=""/>
+    <member type="way" ref="666135205" role=""/>
+    <member type="way" ref="671891058" role=""/>
+    <member type="way" ref="671891057" role=""/>
+    <member type="way" ref="210831347" role=""/>
+    <member type="way" ref="669207791" role=""/>
+    <member type="way" ref="23124121" role=""/>
+    <member type="way" ref="670511726" role=""/>
+    <member type="way" ref="27014190" role=""/>
+    <member type="way" ref="27844756" role=""/>
+    <member type="way" ref="310025094" role=""/>
+    <member type="way" ref="229781423" role=""/>
+    <member type="way" ref="15488418" role=""/>
+    <member type="way" ref="15488620" role=""/>
+    <member type="way" ref="37190330" role=""/>
+    <member type="way" ref="229237636" role=""/>
+    <member type="way" ref="229238396" role=""/>
+    <member type="way" ref="853007861" role=""/>
+    <member type="way" ref="853007860" role=""/>
+    <member type="way" ref="15489228" role=""/>
+    <member type="way" ref="741873759" role=""/>
+    <member type="way" ref="894634967" role=""/>
+    <member type="way" ref="671635091" role=""/>
+    <member type="way" ref="671635092" role=""/>
+    <member type="way" ref="227364750" role=""/>
+    <member type="way" ref="229673022" role=""/>
+    <member type="way" ref="227364752" role=""/>
+    <member type="way" ref="229673024" role=""/>
+    <member type="way" ref="229796699" role=""/>
+    <member type="way" ref="373482266" role=""/>
+    <member type="way" ref="232079825" role=""/>
+    <member type="way" ref="452252360" role=""/>
+    <member type="way" ref="232079775" role=""/>
+    <member type="way" ref="130848151" role=""/>
+    <member type="way" ref="448266588" role=""/>
+    <member type="way" ref="448266585" role=""/>
+    <member type="way" ref="448266587" role=""/>
+    <member type="way" ref="778823267" role=""/>
+    <member type="way" ref="778823268" role=""/>
+    <member type="way" ref="231435896" role=""/>
+    <member type="way" ref="125496883" role=""/>
+    <member type="way" ref="125496888" role=""/>
+    <member type="way" ref="313014417" role=""/>
+    <member type="way" ref="295377943" role=""/>
+    <member type="way" ref="723800304" role=""/>
+    <member type="way" ref="23123521" role=""/>
+    <member type="way" ref="301860564" role=""/>
+    <member type="way" ref="448266591" role=""/>
+    <member type="way" ref="241217409" role=""/>
+    <member type="way" ref="237797917" role=""/>
+    <member type="way" ref="84489009" role=""/>
+    <member type="way" ref="84489420" role=""/>
+    <member type="way" ref="50586389" role=""/>
+    <member type="way" ref="450735438" role=""/>
+    <member type="way" ref="543947969" role=""/>
+    <member type="way" ref="668979222" role=""/>
+    <member type="way" ref="244433542" role=""/>
+    <member type="way" ref="668883523" role=""/>
+    <member type="way" ref="668922201" role=""/>
+    <member type="way" ref="244423460" role=""/>
+    <member type="way" ref="244423459" role=""/>
+    <member type="way" ref="205969670" role=""/>
+    <member type="way" ref="205969669" role=""/>
+    <tag k="from" v="Bulevardul Tineretului"/>
+    <tag k="name" v="Bus 133: Bd. Tineretului =&gt; Gara Basarab"/>
+    <tag k="network" v="Societatea de Transport București"/>
+    <tag k="network:short" v="STB"/>
+    <tag k="network:wikidata" v="Q2280353"/>
+    <tag k="network:wikipedia" v="ro:Societatea de Transport București"/>
+    <tag k="operator" v="RATB"/>
+    <tag k="public_transport:version" v="2"/>
+    <tag k="ref" v="133"/>
+    <tag k="route" v="bus"/>
+    <tag k="to" v="Gara Basarab"/>
+    <tag k="type" v="route"/>
+  </relation>
+  <relation id="4198760">
+    <member type="way" ref="125496888" role="from"/>
+    <member type="node" ref="33389991" role="via"/>
+    <member type="way" ref="313014417" role="to"/>
+    <tag k="restriction" v="only_straight_on"/>
+    <tag k="type" v="restriction"/>
+  </relation>
+  <relation id="6653593">
+    <member type="node" ref="2522849389" role="stop"/>
+    <member type="node" ref="2522849390" role="platform"/>
+    <member type="node" ref="2990854837" role="stop"/>
+    <member type="node" ref="2990854835" role="platform"/>
+    <member type="node" ref="2990854732" role="stop"/>
+    <member type="node" ref="2990854833" role="platform"/>
+    <member type="node" ref="2990887289" role="stop"/>
+    <member type="node" ref="2990887290" role="platform"/>
+    <member type="node" ref="3059983043" role="stop"/>
+    <member type="node" ref="2865914438" role="platform"/>
+    <member type="node" ref="3060008133" role="stop"/>
+    <member type="node" ref="3060010933" role="platform"/>
+    <member type="node" ref="2519567790" role="stop"/>
+    <member type="node" ref="2091974064" role="platform"/>
+    <member type="node" ref="2519567763" role="stop"/>
+    <member type="node" ref="2519567768" role="platform"/>
+    <member type="node" ref="3052633863" role="stop"/>
+    <member type="node" ref="364416476" role="platform"/>
+    <member type="node" ref="3052650534" role="stop"/>
+    <member type="node" ref="599018038" role="platform"/>
+    <member type="node" ref="2517400443" role="stop"/>
+    <member type="node" ref="599018660" role="platform"/>
+    <member type="node" ref="2517400440" role="stop"/>
+    <member type="node" ref="599019502" role="platform"/>
+    <member type="node" ref="5215897233" role="stop"/>
+    <member type="node" ref="731547767" role="platform"/>
+    <member type="node" ref="2517380908" role="stop"/>
+    <member type="node" ref="731544142" role="platform"/>
+    <member type="node" ref="2519806768" role="stop"/>
+    <member type="node" ref="731544141" role="platform"/>
+    <member type="node" ref="31401811" role="stop"/>
+    <member type="node" ref="2519808278" role="platform"/>
+    <member type="node" ref="9179891089" role="stop"/>
+    <member type="node" ref="9179891090" role="platform"/>
+    <member type="node" ref="8316047631" role="stop"/>
+    <member type="node" ref="8316047630" role="platform"/>
+    <member type="node" ref="7729225390" role="stop"/>
+    <member type="node" ref="5218440739" role="platform"/>
+    <member type="node" ref="3371136094" role="stop"/>
+    <member type="node" ref="3371134797" role="platform"/>
+    <member type="node" ref="7729225393" role="stop"/>
+    <member type="node" ref="4711713830" role="platform"/>
+    <member type="way" ref="543523320" role=""/>
+    <member type="way" ref="668307642" role=""/>
+    <member type="way" ref="130848152" role=""/>
+    <member type="way" ref="778823271" role=""/>
+    <member type="way" ref="448266586" role=""/>
+    <member type="way" ref="448266584" role=""/>
+    <member type="way" ref="130848151" role=""/>
+    <member type="way" ref="448266588" role=""/>
+    <member type="way" ref="448266585" role=""/>
+    <member type="way" ref="448266587" role=""/>
+    <member type="way" ref="778823267" role=""/>
+    <member type="way" ref="778823268" role=""/>
+    <member type="way" ref="231435896" role=""/>
+    <member type="way" ref="125496883" role=""/>
+    <member type="way" ref="125496888" role=""/>
+    <member type="way" ref="313014417" role=""/>
+    <member type="way" ref="295377943" role=""/>
+    <member type="way" ref="723800304" role=""/>
+    <member type="way" ref="23123521" role=""/>
+    <member type="way" ref="301860564" role=""/>
+    <member type="way" ref="448266591" role=""/>
+    <member type="way" ref="256343306" role=""/>
+    <member type="way" ref="231253160" role=""/>
+    <member type="way" ref="543988955" role=""/>
+    <member type="way" ref="231253157" role=""/>
+    <member type="way" ref="669032715" role=""/>
+    <member type="way" ref="231253170" role=""/>
+    <member type="way" ref="314034007" role=""/>
+    <member type="way" ref="314034006" role=""/>
+    <member type="way" ref="314033562" role=""/>
+    <member type="way" ref="206994123" role=""/>
+    <member type="way" ref="246129080" role=""/>
+    <member type="way" ref="207025496" role=""/>
+    <member type="way" ref="198516661" role=""/>
+    <member type="way" ref="666205900" role=""/>
+    <member type="way" ref="23123525" role=""/>
+    <member type="way" ref="227497585" role=""/>
+    <member type="way" ref="227497590" role=""/>
+    <member type="way" ref="27552707" role=""/>
+    <member type="way" ref="692637776" role=""/>
+    <member type="way" ref="154325231" role=""/>
+    <member type="way" ref="229237069" role=""/>
+    <member type="way" ref="241077288" role=""/>
+    <member type="way" ref="854160103" role=""/>
+    <member type="way" ref="241077488" role=""/>
+    <member type="way" ref="16277426" role=""/>
+    <member type="way" ref="448266580" role=""/>
+    <member type="way" ref="69559945" role=""/>
+    <member type="way" ref="666139703" role=""/>
+    <member type="way" ref="23557143" role=""/>
+    <member type="way" ref="227053921" role=""/>
+    <member type="way" ref="666139702" role=""/>
+    <member type="way" ref="100451215" role=""/>
+    <member type="way" ref="16277187" role=""/>
+    <member type="way" ref="948614009" role=""/>
+    <member type="way" ref="198727912" role=""/>
+    <member type="way" ref="493557592" role=""/>
+    <member type="way" ref="23608488" role=""/>
+    <member type="way" ref="23557223" role=""/>
+    <member type="way" ref="230513351" role=""/>
+    <member type="way" ref="666802068" role=""/>
+    <member type="way" ref="145101149" role=""/>
+    <member type="way" ref="891577585" role=""/>
+    <member type="way" ref="32071009" role=""/>
+    <member type="way" ref="227120187" role=""/>
+    <member type="way" ref="447440794" role=""/>
+    <member type="way" ref="206665581" role=""/>
+    <member type="way" ref="668101903" role=""/>
+    <member type="way" ref="206665579" role=""/>
+    <member type="way" ref="668123537" role=""/>
+    <member type="way" ref="460785359" role=""/>
+    <member type="way" ref="205895105" role=""/>
+    <member type="way" ref="371942799" role=""/>
+    <member type="way" ref="198290429" role=""/>
+    <member type="way" ref="198514515" role=""/>
+    <member type="way" ref="301227084" role=""/>
+    <member type="way" ref="205903540" role=""/>
+    <member type="way" ref="854336653" role=""/>
+    <member type="way" ref="554282664" role=""/>
+    <member type="way" ref="554282661" role=""/>
+    <member type="way" ref="854336651" role=""/>
+    <member type="way" ref="600204957" role=""/>
+    <member type="way" ref="205903545" role=""/>
+    <member type="way" ref="993622558" role=""/>
+    <member type="way" ref="205909207" role=""/>
+    <member type="way" ref="205909187" role=""/>
+    <member type="way" ref="358319261" role=""/>
+    <member type="way" ref="667759759" role=""/>
+    <member type="way" ref="667765439" role=""/>
+    <member type="way" ref="667746381" role=""/>
+    <member type="way" ref="382989470" role=""/>
+    <member type="way" ref="993628140" role=""/>
+    <member type="way" ref="993628139" role=""/>
+    <member type="way" ref="667578493" role=""/>
+    <member type="way" ref="667557448" role=""/>
+    <member type="way" ref="993623598" role=""/>
+    <member type="way" ref="477881451" role=""/>
+    <member type="way" ref="226280381" role=""/>
+    <member type="way" ref="130520352" role=""/>
+    <member type="way" ref="226280377" role=""/>
+    <member type="way" ref="661605242" role=""/>
+    <member type="way" ref="320118421" role=""/>
+    <tag k="from" v="Piața Romană"/>
+    <tag k="name" v="Bus 168: Piața Romană =&gt; Cartier Constantin Brâncuși"/>
+    <tag k="network" v="Societatea de Transport București"/>
+    <tag k="network:short" v="STB"/>
+    <tag k="network:wikidata" v="Q2280353"/>
+    <tag k="network:wikipedia" v="ro:Societatea de Transport București"/>
+    <tag k="operator" v="STB (Societatea de Transport București)"/>
+    <tag k="public_transport:version" v="2"/>
+    <tag k="ref" v="168"/>
+    <tag k="route" v="bus"/>
+    <tag k="to" v="Cartier Constantin Brâncuși"/>
+    <tag k="type" v="route"/>
+  </relation>
+  <relation id="6654331">
+    <member type="node" ref="2522849391" role="stop"/>
+    <member type="node" ref="444384784" role="platform"/>
+    <member type="node" ref="2990854835" role="platform"/>
+    <member type="node" ref="2990854837" role="stop"/>
+    <member type="node" ref="2990854732" role="stop"/>
+    <member type="node" ref="2990854833" role="platform"/>
+    <member type="node" ref="2990887289" role="stop"/>
+    <member type="node" ref="2990887290" role="platform"/>
+    <member type="node" ref="3059983043" role="stop"/>
+    <member type="node" ref="2865914438" role="platform"/>
+    <member type="node" ref="3060008133" role="stop"/>
+    <member type="node" ref="3060010933" role="platform"/>
+    <member type="node" ref="2519567790" role="stop"/>
+    <member type="node" ref="2091974064" role="platform"/>
+    <member type="node" ref="2519567763" role="stop"/>
+    <member type="node" ref="2519567768" role="platform"/>
+    <member type="node" ref="2519567792" role="stop"/>
+    <member type="node" ref="2519567791" role="platform"/>
+    <member type="node" ref="2519567775" role="stop"/>
+    <member type="node" ref="2519567771" role="platform"/>
+    <member type="node" ref="2519576387" role="stop"/>
+    <member type="node" ref="2519576386" role="platform"/>
+    <member type="node" ref="2519576393" role="stop"/>
+    <member type="node" ref="2519576394" role="platform"/>
+    <member type="node" ref="2519576395" role="stop"/>
+    <member type="node" ref="2519576396" role="platform"/>
+    <member type="node" ref="2519577620" role="stop"/>
+    <member type="node" ref="2519577622" role="platform"/>
+    <member type="node" ref="166211254" role="stop"/>
+    <member type="node" ref="3274045661" role="platform"/>
+    <member type="node" ref="3274047861" role="stop"/>
+    <member type="node" ref="3274047961" role="platform"/>
+    <member type="node" ref="3274051261" role="stop"/>
+    <member type="node" ref="3274051262" role="platform"/>
+    <member type="node" ref="3274051461" role="stop"/>
+    <member type="node" ref="3274051561" role="platform"/>
+    <member type="node" ref="3274051662" role="stop"/>
+    <member type="node" ref="3274047962" role="platform"/>
+    <member type="node" ref="5254306675" role="stop"/>
+    <member type="node" ref="5254306674" role="platform"/>
+    <member type="node" ref="5254306678" role="stop"/>
+    <member type="node" ref="5254306676" role="platform"/>
+    <member type="node" ref="2308213035" role="stop"/>
+    <member type="node" ref="4490684472" role="platform"/>
+    <member type="way" ref="130848152" role=""/>
+    <member type="way" ref="778823271" role=""/>
+    <member type="way" ref="448266586" role=""/>
+    <member type="way" ref="448266584" role=""/>
+    <member type="way" ref="130848151" role=""/>
+    <member type="way" ref="448266588" role=""/>
+    <member type="way" ref="448266585" role=""/>
+    <member type="way" ref="448266587" role=""/>
+    <member type="way" ref="778823267" role=""/>
+    <member type="way" ref="778823268" role=""/>
+    <member type="way" ref="231435896" role=""/>
+    <member type="way" ref="125496883" role=""/>
+    <member type="way" ref="125496888" role=""/>
+    <member type="way" ref="313014417" role=""/>
+    <member type="way" ref="295377943" role=""/>
+    <member type="way" ref="723800304" role=""/>
+    <member type="way" ref="23123521" role=""/>
+    <member type="way" ref="301860564" role=""/>
+    <member type="way" ref="448266591" role=""/>
+    <member type="way" ref="256343306" role=""/>
+    <member type="way" ref="231253160" role=""/>
+    <member type="way" ref="543988955" role=""/>
+    <member type="way" ref="231253157" role=""/>
+    <member type="way" ref="669032715" role=""/>
+    <member type="way" ref="231253170" role=""/>
+    <member type="way" ref="314034007" role=""/>
+    <member type="way" ref="314034006" role=""/>
+    <member type="way" ref="314033562" role=""/>
+    <member type="way" ref="206994123" role=""/>
+    <member type="way" ref="246129080" role=""/>
+    <member type="way" ref="207025496" role=""/>
+    <member type="way" ref="198516661" role=""/>
+    <member type="way" ref="666205900" role=""/>
+    <member type="way" ref="23123525" role=""/>
+    <member type="way" ref="227497585" role=""/>
+    <member type="way" ref="227497590" role=""/>
+    <member type="way" ref="27552707" role=""/>
+    <member type="way" ref="692637776" role=""/>
+    <member type="way" ref="154325231" role=""/>
+    <member type="way" ref="229237069" role=""/>
+    <member type="way" ref="241077288" role=""/>
+    <member type="way" ref="854160103" role=""/>
+    <member type="way" ref="241077488" role=""/>
+    <member type="way" ref="16277426" role=""/>
+    <member type="way" ref="448266580" role=""/>
+    <member type="way" ref="69559945" role=""/>
+    <member type="way" ref="666139703" role=""/>
+    <member type="way" ref="23557143" role=""/>
+    <member type="way" ref="227053921" role=""/>
+    <member type="way" ref="666139702" role=""/>
+    <member type="way" ref="100451215" role=""/>
+    <member type="way" ref="16277187" role=""/>
+    <member type="way" ref="948614009" role=""/>
+    <member type="way" ref="948614010" role=""/>
+    <member type="way" ref="948614008" role=""/>
+    <member type="way" ref="186554854" role=""/>
+    <member type="way" ref="665910850" role=""/>
+    <member type="way" ref="665910851" role=""/>
+    <member type="way" ref="359119945" role=""/>
+    <member type="way" ref="665910844" role=""/>
+    <member type="way" ref="665910845" role=""/>
+    <member type="way" ref="665951786" role=""/>
+    <member type="way" ref="23490998" role=""/>
+    <member type="way" ref="665914998" role=""/>
+    <member type="way" ref="665914997" role=""/>
+    <member type="way" ref="665914996" role=""/>
+    <member type="way" ref="198727908" role=""/>
+    <member type="way" ref="448271489" role=""/>
+    <member type="way" ref="665914995" role=""/>
+    <member type="way" ref="667337639" role=""/>
+    <member type="way" ref="665914994" role=""/>
+    <member type="way" ref="667337637" role=""/>
+    <member type="way" ref="665914993" role=""/>
+    <member type="way" ref="665914992" role=""/>
+    <member type="way" ref="667337636" role=""/>
+    <member type="way" ref="667337635" role=""/>
+    <member type="way" ref="667337634" role=""/>
+    <member type="way" ref="448271490" role=""/>
+    <member type="way" ref="23599288" role=""/>
+    <member type="way" ref="3043522" role=""/>
+    <member type="way" ref="231945081" role=""/>
+    <member type="way" ref="198727904" role=""/>
+    <member type="way" ref="448315507" role=""/>
+    <member type="way" ref="447440796" role=""/>
+    <member type="way" ref="30343265" role=""/>
+    <member type="way" ref="16286013" role=""/>
+    <member type="way" ref="448624937" role=""/>
+    <member type="way" ref="723380264" role=""/>
+    <member type="way" ref="446975239" role=""/>
+    <member type="way" ref="452264273" role=""/>
+    <member type="way" ref="895690654" role=""/>
+    <member type="way" ref="23782712" role=""/>
+    <member type="way" ref="221830641" role=""/>
+    <member type="way" ref="852402052" role=""/>
+    <member type="way" ref="852402053" role=""/>
+    <member type="way" ref="215527542" role=""/>
+    <member type="way" ref="215527548" role=""/>
+    <member type="way" ref="696749872" role=""/>
+    <member type="way" ref="215527539" role=""/>
+    <member type="way" ref="543547161" role=""/>
+    <member type="way" ref="387989979" role=""/>
+    <tag k="from" v="Piața Romană"/>
+    <tag k="name" v="Bus 226: Piața Romană =&gt; Depoul Alexandria"/>
+    <tag k="network" v="STB (Societatea de Transport București)"/>
+    <tag k="operator" v="STB (Societatea de Transport București)"/>
+    <tag k="public_transport:version" v="2"/>
+    <tag k="ref" v="226"/>
+    <tag k="route" v="bus"/>
+    <tag k="to" v="Depoul Alexandria"/>
+    <tag k="type" v="route"/>
+  </relation>
+  <relation id="12460306">
+    <member type="node" ref="503641314" role="platform"/>
+    <member type="node" ref="5069564048" role="stop"/>
+    <member type="node" ref="503633561" role="platform"/>
+    <member type="node" ref="2521966060" role="stop"/>
+    <member type="node" ref="2522849394" role="platform"/>
+    <member type="node" ref="2522849395" role="stop"/>
+    <member type="node" ref="577511674" role="platform"/>
+    <member type="node" ref="3063867134" role="stop"/>
+    <member type="node" ref="4502668389" role="platform"/>
+    <member type="node" ref="4845712582" role="stop"/>
+    <member type="node" ref="571374641" role="platform"/>
+    <member type="node" ref="3063887433" role="stop"/>
+    <member type="node" ref="8531076545" role="platform"/>
+    <member type="node" ref="8531076544" role="stop"/>
+    <member type="node" ref="2522857235" role="platform"/>
+    <member type="node" ref="2522857236" role="stop"/>
+    <member type="node" ref="8531076543" role="platform"/>
+    <member type="node" ref="60291019" role="stop"/>
+    <member type="node" ref="8144021830" role="platform"/>
+    <member type="node" ref="8419250538" role="platform"/>
+    <member type="node" ref="8419250539" role="stop"/>
+    <member type="node" ref="8419250536" role="platform"/>
+    <member type="node" ref="8419250537" role="stop"/>
+    <member type="node" ref="4936587521" role="platform"/>
+    <member type="node" ref="6318936107" role="stop"/>
+    <member type="node" ref="4936586422" role="platform"/>
+    <member type="node" ref="8531076542" role="stop"/>
+    <member type="node" ref="8531076540" role="platform"/>
+    <member type="node" ref="8531076541" role="stop"/>
+    <member type="node" ref="8316047622" role="platform"/>
+    <member type="node" ref="8316047623" role="stop"/>
+    <member type="node" ref="2148890286" role="platform"/>
+    <member type="node" ref="2389982918" role="stop"/>
+    <member type="way" ref="544125049" role=""/>
+    <member type="way" ref="131473991" role=""/>
+    <member type="way" ref="23726626" role=""/>
+    <member type="way" ref="902475338" role=""/>
+    <member type="way" ref="23726764" role=""/>
+    <member type="way" ref="895496036" role=""/>
+    <member type="way" ref="131471368" role=""/>
+    <member type="way" ref="132532342" role=""/>
+    <member type="way" ref="23727007" role=""/>
+    <member type="way" ref="131471369" role=""/>
+    <member type="way" ref="669216989" role=""/>
+    <member type="way" ref="45556705" role=""/>
+    <member type="way" ref="218544013" role=""/>
+    <member type="way" ref="669216988" role=""/>
+    <member type="way" ref="447459725" role=""/>
+    <member type="way" ref="447459717" role=""/>
+    <member type="way" ref="231271722" role=""/>
+    <member type="way" ref="447459708" role=""/>
+    <member type="way" ref="231271721" role=""/>
+    <member type="way" ref="131480127" role=""/>
+    <member type="way" ref="45855384" role=""/>
+    <member type="way" ref="45855373" role=""/>
+    <member type="way" ref="306524838" role=""/>
+    <member type="way" ref="301837027" role=""/>
+    <member type="way" ref="301817359" role=""/>
+    <member type="way" ref="301817356" role=""/>
+    <member type="way" ref="418948280" role=""/>
+    <member type="way" ref="329774200" role=""/>
+    <member type="way" ref="668480485" role=""/>
+    <member type="way" ref="902465595" role=""/>
+    <member type="way" ref="218248935" role=""/>
+    <member type="way" ref="902465596" role=""/>
+    <member type="way" ref="218248936" role=""/>
+    <member type="way" ref="544125048" role=""/>
+    <member type="way" ref="713108235" role=""/>
+    <member type="way" ref="492742579" role=""/>
+    <member type="way" ref="670331530" role=""/>
+    <member type="way" ref="3058607" role=""/>
+    <member type="way" ref="448278717" role=""/>
+    <member type="way" ref="303925703" role=""/>
+    <member type="way" ref="303925704" role=""/>
+    <member type="way" ref="227396567" role=""/>
+    <member type="way" ref="281701376" role=""/>
+    <member type="way" ref="281701377" role=""/>
+    <member type="way" ref="672964180" role=""/>
+    <member type="way" ref="668685417" role=""/>
+    <member type="way" ref="258603875" role=""/>
+    <member type="way" ref="723764940" role=""/>
+    <member type="way" ref="178060182" role=""/>
+    <member type="way" ref="14254203" role=""/>
+    <member type="way" ref="4865914" role=""/>
+    <member type="way" ref="313014418" role=""/>
+    <member type="way" ref="139713885" role=""/>
+    <member type="way" ref="186554856" role=""/>
+    <member type="way" ref="244668685" role=""/>
+    <member type="way" ref="668989983" role=""/>
+    <member type="way" ref="668989982" role=""/>
+    <member type="way" ref="668989981" role=""/>
+    <member type="way" ref="180685587" role=""/>
+    <member type="way" ref="762618611" role=""/>
+    <member type="way" ref="231242707" role=""/>
+    <member type="way" ref="231242706" role=""/>
+    <member type="way" ref="231242708" role=""/>
+    <member type="way" ref="242569557" role=""/>
+    <member type="way" ref="4865930" role=""/>
+    <member type="way" ref="250489758" role=""/>
+    <member type="way" ref="250489756" role=""/>
+    <member type="way" ref="201079795" role=""/>
+    <member type="way" ref="231912933" role=""/>
+    <member type="way" ref="23480875" role=""/>
+    <member type="way" ref="666682367" role=""/>
+    <member type="way" ref="305920984" role=""/>
+    <member type="way" ref="666682368" role=""/>
+    <member type="way" ref="302797036" role=""/>
+    <member type="way" ref="256479529" role=""/>
+    <member type="way" ref="12473230" role=""/>
+    <member type="way" ref="666686367" role=""/>
+    <member type="way" ref="858544663" role=""/>
+    <member type="way" ref="23491122" role=""/>
+    <member type="way" ref="4276104" role=""/>
+    <member type="way" ref="448012731" role=""/>
+    <member type="way" ref="543760082" role=""/>
+    <member type="way" ref="153967352" role=""/>
+    <member type="way" ref="244601702" role=""/>
+    <member type="way" ref="665110039" role=""/>
+    <tag k="from" v="Complex Comercial Băneasa"/>
+    <tag k="name" v="Bus 361: Complex Comercial Băneasa =&gt; Piața Unirii"/>
+    <tag k="network" v="Societatea de Transport București"/>
+    <tag k="network:short" v="STB"/>
+    <tag k="network:wikidata" v="Q2280353"/>
+    <tag k="network:wikipedia" v="ro:Societatea de Transport București"/>
+    <tag k="operator" v="STB (Societatea de Transport București)"/>
+    <tag k="public_transport:version" v="2"/>
+    <tag k="ref" v="361"/>
+    <tag k="route" v="bus"/>
+    <tag k="to" v="Piața Unirii 2"/>
+    <tag k="type" v="route"/>
+  </relation>
+  <relation id="12768461">
+    <member type="way" ref="231242708" role=""/>
+    <member type="way" ref="242569558" role=""/>
+    <member type="way" ref="242569557" role=""/>
+    <member type="way" ref="23486284" role=""/>
+    <member type="way" ref="231242706" role=""/>
+    <member type="way" ref="23486256" role=""/>
+    <member type="way" ref="231246482" role=""/>
+    <member type="way" ref="23486235" role=""/>
+    <member type="way" ref="231242707" role=""/>
+    <member type="way" ref="23486214" role=""/>
+    <member type="way" ref="23486122" role=""/>
+    <member type="way" ref="178195077" role=""/>
+    <member type="way" ref="231242717" role=""/>
+    <member type="way" ref="231242711" role=""/>
+    <member type="way" ref="23486302" role=""/>
+    <member type="way" ref="23486191" role=""/>
+    <member type="way" ref="231246480" role=""/>
+    <member type="way" ref="232480573" role=""/>
+    <member type="way" ref="23486208" role=""/>
+    <member type="way" ref="231242715" role=""/>
+    <member type="way" ref="231242716" role=""/>
+    <member type="way" ref="23486198" role=""/>
+    <member type="way" ref="762618611" role=""/>
+    <member type="way" ref="23049950" role=""/>
+    <member type="way" ref="23489696" role=""/>
+    <member type="way" ref="373366006" role=""/>
+    <member type="way" ref="23489693" role=""/>
+    <member type="way" ref="23489690" role=""/>
+    <member type="way" ref="23049947" role=""/>
+    <member type="way" ref="23049949" role=""/>
+    <member type="way" ref="845738311" role=""/>
+    <member type="way" ref="661261136" role=""/>
+    <member type="way" ref="23049945" role=""/>
+    <member type="way" ref="343965527" role=""/>
+    <member type="way" ref="196642105" role=""/>
+    <member type="way" ref="180685587" role=""/>
+    <member type="way" ref="23556928" role=""/>
+    <member type="way" ref="231243909" role=""/>
+    <member type="way" ref="23633182" role=""/>
+    <member type="way" ref="23633117" role=""/>
+    <member type="way" ref="668989981" role=""/>
+    <member type="way" ref="391478818" role=""/>
+    <member type="way" ref="668989982" role=""/>
+    <member type="way" ref="308396833" role=""/>
+    <member type="way" ref="241700730" role=""/>
+    <member type="way" ref="28989946" role=""/>
+    <member type="way" ref="242798013" role=""/>
+    <member type="way" ref="139713892" role=""/>
+    <member type="way" ref="23770946" role=""/>
+    <member type="way" ref="23770914" role=""/>
+    <member type="way" ref="125421201" role=""/>
+    <member type="way" ref="27013592" role=""/>
+    <member type="way" ref="296738575" role=""/>
+    <member type="way" ref="23770996" role=""/>
+    <member type="way" ref="217358374" role=""/>
+    <member type="way" ref="948141369" role=""/>
+    <member type="way" ref="229676953" role=""/>
+    <member type="way" ref="32335506" role=""/>
+    <member type="way" ref="23116174" role=""/>
+    <member type="way" ref="250448528" role=""/>
+    <member type="way" ref="222614292" role=""/>
+    <member type="way" ref="256049809" role=""/>
+    <member type="way" ref="668989984" role=""/>
+    <member type="way" ref="250448529" role=""/>
+    <member type="way" ref="222613976" role=""/>
+    <member type="way" ref="313014418" role=""/>
+    <member type="way" ref="23554799" role=""/>
+    <member type="way" ref="23556833" role=""/>
+    <member type="way" ref="125420128" role=""/>
+    <member type="way" ref="125420124" role=""/>
+    <member type="way" ref="23632894" role=""/>
+    <member type="way" ref="228430531" role=""/>
+    <member type="way" ref="231253168" role=""/>
+    <member type="way" ref="23633080" role=""/>
+    <member type="way" ref="51204365" role=""/>
+    <member type="way" ref="23770777" role=""/>
+    <member type="way" ref="23770839" role=""/>
+    <member type="way" ref="23770809" role=""/>
+    <member type="way" ref="205981089" role=""/>
+    <member type="way" ref="125496897" role=""/>
+    <member type="way" ref="23770815" role=""/>
+    <member type="way" ref="669726792" role=""/>
+    <member type="way" ref="205981087" role=""/>
+    <member type="way" ref="205981093" role=""/>
+    <member type="way" ref="205981095" role=""/>
+    <member type="way" ref="288822834" role=""/>
+    <member type="way" ref="464725834" role=""/>
+    <member type="way" ref="288822823" role=""/>
+    <member type="way" ref="272520012" role=""/>
+    <member type="way" ref="50584794" role=""/>
+    <member type="way" ref="23633057" role=""/>
+    <member type="way" ref="252858180" role=""/>
+    <member type="way" ref="4865914" role=""/>
+    <member type="way" ref="23632520" role=""/>
+    <member type="way" ref="125496891" role=""/>
+    <member type="way" ref="78063228" role=""/>
+    <member type="way" ref="125496899" role=""/>
+    <member type="way" ref="23632604" role=""/>
+    <member type="way" ref="217511164" role=""/>
+    <member type="way" ref="23623180" role=""/>
+    <member type="way" ref="258603875" role=""/>
+    <member type="way" ref="231403073" role=""/>
+    <member type="way" ref="676529878" role=""/>
+    <member type="way" ref="23611170" role=""/>
+    <member type="way" ref="125496894" role=""/>
+    <member type="way" ref="766633591" role=""/>
+    <member type="way" ref="125421204" role=""/>
+    <member type="way" ref="229676954" role=""/>
+    <member type="way" ref="32335508" role=""/>
+    <tag k="description" v="Streets that are in the 'Străzi deschise' program, they are pedestrian only in the weekend"/>
+    <tag k="name" v="Străzi deschise"/>
+    <tag k="type" v="site"/>
+  </relation>
+
+</osm>
