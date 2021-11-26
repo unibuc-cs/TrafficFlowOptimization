@@ -14,7 +14,7 @@
     <option name="ADD_SOURCE_ROOTS" value="true" />
     <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
     <option name="SCRIPT_NAME" value="$PROJECT_DIR$/experiments/massa_marl_a3c.py" />
-    <option name="PARAMETERS" value="-route nets/RESCO/cologne8/cologne8.rou.xml -net nets/RESCO/cologne8/cologne8.net.xml -begin_time 25200 -simulation_time 28800 -sumo_seed random -singleagent 0 -outputbasepath &quot;outputs/massa/cologne8exp_&quot;" />
+    <option name="PARAMETERS" value="-route nets/RESCO/cologne8/cologne8.rou.xml -net nets/RESCO/cologne8/cologne8.net.xml -begin_time 25200 -simulation_time 28800 -sumo_seed random -singleagent 0 -outputbasepath &quot;outputs/massa/cologne8exp_A3C_&quot;" />
     <option name="SHOW_COMMAND_LINE" value="false" />
     <option name="EMULATE_TERMINAL" value="false" />
     <option name="MODULE_MODE" value="false" />

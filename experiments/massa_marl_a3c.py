@@ -12,6 +12,8 @@ import pandas as pd
 import ray
 from ray.rllib.agents.a3c.a3c import A3CTrainer
 from ray.rllib.agents.a3c.a3c_tf_policy import A3CTFPolicy
+from ray.rllib.agents.dqn.dqn import DQNTrainer
+from ray.rllib.agents.dqn.dqn_tf_policy import DQNTFPolicy
 from ray.rllib.env import PettingZooEnv, ParallelPettingZooEnv
 from ray.tune.registry import register_env
 from gym import spaces
@@ -73,6 +75,7 @@ if __name__ == '__main__':
     testEnv = supersuit.pad_observations_v0(testEnv)
     testEnv = supersuit.pad_action_space_v0(testEnv)
 
+    testEnv = ParallelPettingZooEnv(testEnv)
     #-------------------------------------------------------
 
 
@@ -82,15 +85,29 @@ if __name__ == '__main__':
     register_env("MASSA_multiAgentEnv", lambda _: testEnv)
 
     # TODO: use other strategies and parameters here to leverage policies etc.
-    trainer = A3CTrainer(env="MASSA_multiAgentEnv", config={
-        "multiagent": {
-            "policies": {
-                '0': (A3CTFPolicy, padded_observation_space, padded_action_space, {})
+    if True:
+        trainer = A3CTrainer(env="MASSA_multiAgentEnv", config={
+            "multiagent": {
+                "policies": {
+                    '0': (A3CTFPolicy, padded_observation_space, padded_action_space, {})
+                },
+                "policy_mapping_fn": (lambda id: '0')  # Traffic lights are always controlled by this policy
             },
-            "policy_mapping_fn": (lambda id: '0')  # Traffic lights are always controlled by this policy
-        },
-        "lr": args.learningrate,
-        "no_done_at_end": True
-    })
+            "lr": args.learningrate,
+            "no_done_at_end": True,
+        })
+    else:
+        trainer = DQNTrainer(env="MASSA_multiAgentEnv", config={
+            "multiagent": {
+                "policies": {
+                    '0': (DQNTFPolicy, padded_observation_space, padded_action_space, {})
+                },
+                "policy_mapping_fn": (lambda id: '0')  # Traffic lights are always controlled by this policy
+            },
+            "lr": args.learningrate,
+            "no_done_at_end": True,
+        })
+
     while True:
         print(trainer.train())  # distributed training step
+
