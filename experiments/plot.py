@@ -32,7 +32,10 @@ def moving_average(interval, window_size):
 
 
 def plot_df(df, color, xaxis, yaxis, ma=1, label=''):
-    df[yaxis] = pd.to_numeric(df[yaxis], errors='coerce')  # convert NaN string to NaN value
+    #df[yaxis] = pd.to_numeric(df[yaxis], errors='coerce')  # convert NaN string to NaN value
+    df = df.dropna(axis=0)
+
+    xaxisGroup = df.groupby(xaxis)
 
     mean = df.groupby(xaxis).mean()[yaxis]
     std = df.groupby(xaxis).std()[yaxis]
@@ -40,7 +43,7 @@ def plot_df(df, color, xaxis, yaxis, ma=1, label=''):
         mean = moving_average(mean, ma)
         std = moving_average(std, ma)
 
-    x = df.groupby(xaxis)[xaxis].mean().keys().values
+    x = xaxisGroup.indices.keys() #df.groupby(xaxis)[xaxis].mean().keys().values
     plt.plot(x, mean, label=label, color=color, linestyle=next(dashes_styles))
     plt.fill_between(x, mean + std, mean - std, alpha=0.25, color=color, rasterized=True)
     
@@ -72,11 +75,17 @@ if __name__ == '__main__':
     for file in args.f:
         main_df = pd.DataFrame()
         for f in glob.glob(file+'*'):
-            df = pd.read_csv(f, sep=args.sep)
+            try:
+                df = pd.read_csv(f, sep=args.sep)# usecols=["step_time", "reward", "total_stopped", "total_wait_time"])
+            except:
+                continue
             if main_df.empty:
                 main_df = df
             else:
                 main_df = pd.concat((main_df, df))
+
+        # Process data a bit...
+        #main_df[args.xaxis] = df[args.xaxis].str.replace('.0.0', '0.0')
 
         # Plot DataFrame
         plot_df(main_df,

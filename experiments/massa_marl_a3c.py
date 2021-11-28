@@ -14,6 +14,12 @@ from ray.rllib.agents.a3c.a3c import A3CTrainer
 from ray.rllib.agents.a3c.a3c_tf_policy import A3CTFPolicy
 from ray.rllib.agents.dqn.dqn import DQNTrainer
 from ray.rllib.agents.dqn.dqn_tf_policy import DQNTFPolicy
+from ray.rllib.agents.ppo.ppo_tf_policy import PPOTFPolicy
+from ray.rllib.agents.ppo.ppo import PPOTrainer
+from ray.rllib.contrib.maddpg.maddpg import MADDPGTrainer
+from ray.rllib.contrib.maddpg.maddpg_policy import MADDPGTFPolicy
+from ray.rllib.agents.sac.sac_tf_policy import SACTFPolicy
+from ray.rllib.agents.sac.sac import SACTrainer
 from ray.rllib.env import PettingZooEnv, ParallelPettingZooEnv
 from ray.tune.registry import register_env
 from gym import spaces
@@ -86,6 +92,28 @@ if __name__ == '__main__':
 
     # TODO: use other strategies and parameters here to leverage policies etc.
     if True:
+        trainer = PPOTrainer(env="MASSA_multiAgentEnv", config={
+            "multiagent": {
+                "policies": {
+                    '0': (PPOTFPolicy, padded_observation_space, padded_action_space, {})
+                },
+                "policy_mapping_fn": (lambda id: '0')  # Traffic lights are always controlled by this policy
+            },
+            "lr": args.learningrate,
+            "no_done_at_end": True,
+        })
+    elif True:
+        trainer = PPOTrainer(env="MASSA_multiAgentEnv", config={
+            "multiagent": {
+                "policies": {
+                    '0': (PPOTFPolicy, padded_observation_space, padded_action_space, {})
+                },
+                "policy_mapping_fn": (lambda id: '0')  # Traffic lights are always controlled by this policy
+            },
+            "lr": args.learningrate,
+            "no_done_at_end": True,
+        })
+    elif False:
         trainer = A3CTrainer(env="MASSA_multiAgentEnv", config={
             "multiagent": {
                 "policies": {
