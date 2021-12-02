@@ -32,6 +32,9 @@ def parseArgs():
     prs.add_argument("-gui", dest="gui", type=int, default=0, help="Should use SUMO GUI ? \n")
 
     prs.add_argument("-lr", dest="learningrate", type=float, default=0.001, required=False, help="Alpha learning rate.\n")
+    prs.add_argument("-stop_timesteps", dest="stop_timesteps", type=int, required=True, help="NUmber of total timesteps to stop at")
+    prs.add_argument("-maxTime", dest="maxTime", type=int, required=True,
+                     help="Maximum time in seconds to run an experiment")
 
     args = prs.parse_args()
     experiment_time = str(datetime.now()).split('.')[0]

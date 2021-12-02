@@ -1,5 +1,6 @@
 import os
 import sys
+import traceback
 from pathlib import Path
 import sumo_rl
 if 'SUMO_HOME' in os.environ:
@@ -55,7 +56,7 @@ class SumoEnvironment:
     CONNECTION_LABEL = 0  # For traci multi-client support
 
     def __init__(self, net_file, route_file, out_csv_name=None, use_gui=False, begin_time=0, num_seconds=20000, max_depart_delay=100000,
-                 time_to_teleport=-1, delta_time=5, yellow_time=2, min_green=5, max_green=50, single_agent=False, sumo_seed='random', fixed_ts=False):
+                 time_to_teleport=-1, delta_time=5, yellow_time=2, min_green=5, max_green=50, single_agent=False, sumo_seed='random', forced_label = None, fixed_ts=False):
         self._net = net_file
         self._route = route_file
         self.use_gui = use_gui
@@ -77,8 +78,14 @@ class SumoEnvironment:
         self.single_agent = single_agent
         self.sumo_seed = sumo_seed
         self.fixed_ts = fixed_ts
-        self.label = str(SumoEnvironment.CONNECTION_LABEL)
+
+        labelToUse = int(forced_label)*100+SumoEnvironment.CONNECTION_LABEL if forced_label is not None else SumoEnvironment.CONNECTION_LABEL
+        self.label = str(labelToUse)
         SumoEnvironment.CONNECTION_LABEL += 1
+
+        #debug_printCallStack()
+
+        print(f"$$$$$ This env is using label {self.label}")
         self.sumo = None
 
         if LIBSUMO:
@@ -107,6 +114,10 @@ class SumoEnvironment:
         self.out_csv_name = out_csv_name
         self.observations = {ts: None for ts in self.ts_ids}
         self.rewards = {ts: None for ts in self.ts_ids}
+
+    def debug_printCallStack(self):
+        for line in traceback.format_stack():
+            print(line.strip())
     
     def _start_simulation(self):
         sumo_cmd = [self._sumo_binary,
@@ -264,7 +275,9 @@ class SumoEnvironment:
         if out_csv_name is not None:
             df = pd.DataFrame(self.metrics)
             Path(Path(out_csv_name).parent).mkdir(parents=True, exist_ok=True)
-            df.to_csv(out_csv_name + '_conn{}_run{}'.format(self.label, run) + '.csv', index=False)
+            fullCSVName = out_csv_name + '_conn{}_run{}'.format(self.label, run) + '.csv'
+            print(f"$$$$$ Writing to {fullCSVName}")
+            df.to_csv(fullCSVName, index=False)
 
     # Below functions are for discrete state space
 
@@ -303,6 +316,8 @@ class SumoEnvironmentPZ(AECEnv, EzPickle):
         self.rewards = {a: 0 for a in self.agents}
         self.dones = {a: False for a in self.agents}
         self.infos = {a: {} for a in self.agents}
+
+        print(self._kwargs)
 
     def seed(self, seed=None):
         self.randomizer, seed = seeding.np_random(seed)
