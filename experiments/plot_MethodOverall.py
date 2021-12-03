@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+import pandas
 import seaborn as sns
 import numpy as np
 import pandas as pd
@@ -6,6 +7,7 @@ import argparse
 import glob
 from itertools import cycle
 import parse
+import os
 
 sns.set(style='darkgrid', rc={'figure.figsize': (7.2, 4.45),
                             'text.usetex': True,
@@ -72,13 +74,16 @@ def analyzeRun(dataFrame, fileName):
     max_total_stopped = df["total_stopped"].max()
     avg_total_stoppped = df["total_stopped"].mean()
 
-    return run_ID, max_total_wait_time, avg_total_wait_time, max_total_stopped, avg_total_stoppped
+    rewardMean = df["reward"].mean()
+
+    return run_ID, max_total_wait_time, avg_total_wait_time, max_total_stopped, avg_total_stoppped, rewardMean
 
 if __name__ == '__main__':
 
     prs = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter,
                                   description="""Plot Traffic Signal Metrics""")  
-    prs.add_argument('-f', nargs='+', required=True, help="Measures files\n")            
+    prs.add_argument('-experimentDataPrefix', required=True, help="Measures files prefix\n")
+    prs.add_argument('-methodName', required=True, help="Name of the method under evaluation\n")
     prs.add_argument('-l', nargs='+', default=None, help="File's legends\n")
     prs.add_argument('-title', type=str, default="", help="Plot title\n")
     prs.add_argument("-yaxis", type=str, default='total_wait_time', help="The column to plot.\n")
@@ -87,10 +92,10 @@ if __name__ == '__main__':
     prs.add_argument('-sep', type=str, default=',', help="Values separator on file.\n")
     prs.add_argument('-xlabel', type=str, default='Second', help="X axis label.\n") 
     prs.add_argument('-ylabel', type=str, default='Total waiting time (s)', help="Y axis label.\n")    
-    prs.add_argument('-output', type=str, default=None, help="PDF output filename.\n")
+
+    allStats = {'episode' : [], 'trainingTime' : [], "maxWaitTime" : [], "avgWaitTime" : [], "maxStopped" : [], "avgStopped" : [], "avgReward": []}
    
     args = prs.parse_args()
-    labels = cycle(args.l) if args.l is not None else cycle([str(i) for i in range(len(args.f))])
 
     plt.figure()
 
@@ -105,6 +110,10 @@ if __name__ == '__main__':
     bestRun_maxVehiclesStopped_Value = None
     bestRun_avgVehiclesStopped_Value = None
 
+    args.experimentDataPrefix = args.experimentDataPrefix + "_" + args.methodName
+
+    args.f = [args.experimentDataPrefix]
+
     for file in args.f:
         main_df = pd.DataFrame()
         for f in glob.glob(file+'*'):
@@ -112,7 +121,7 @@ if __name__ == '__main__':
                 df = pd.read_csv(f, sep=args.sep)# usecols=["step_time", "reward", "total_stopped", "total_wait_time"])
 
                 # Get run id from file, and metrics from it
-                run_ID, maxWaitingTime, avgWaitingTime, maxVehiclesStopped, avgVehiclesStopped = analyzeRun(df, f)
+                run_ID, maxWaitingTime, avgWaitingTime, maxVehiclesStopped, avgVehiclesStopped, avg_reward = analyzeRun(df, f)
 
                 # Augment current maximum values
                 if bestRun_avgWaitingTime_ID is None or bestRun_avgWaitingTime_Value > avgWaitingTime:
@@ -132,6 +141,16 @@ if __name__ == '__main__':
                     bestRun_maxVehiclesStopped_ID = f
                     bestRun_maxVehiclesStopped_Value = maxVehiclesStopped
 
+                # Record for each episode, the run_id, average reward, average total waiting time, average number of cars stopped, training time required to get there
+                timeEpochs = os.path.getmtime(f)
+                allStats['episode'].append(int(run_ID))
+                allStats["avgWaitTime"].append(avgWaitingTime)
+                allStats["maxWaitTime"].append(maxWaitingTime)
+                allStats["maxStopped"].append(maxVehiclesStopped)
+                allStats["avgStopped"].append(avgVehiclesStopped)
+                allStats["avgReward"].append(avg_reward)
+                allStats["trainingTime"].append(timeEpochs)
+
             except:
                 continue
             if main_df.empty:
@@ -146,23 +165,27 @@ if __name__ == '__main__':
         plot_df(main_df,
                 xaxis=args.xaxis,
                 yaxis=args.yaxis,
-                label=next(labels),
                 color=next(colors),
                 ma=args.ma,
                 )
 
-        print(f"For method output {args.output}:")
+        print(f"For method output {args.methodName}:")
         print(f"Best Run max WaitTime: ID {bestRun_maxWaitingTime_ID}, value {bestRun_maxWaitingTime_Value}")
         print(f"Best Run avg WaitTime: ID {bestRun_avgWaitingTime_ID}, value {bestRun_avgWaitingTime_Value}")
         print(f"Best Run max Stopped: ID {bestRun_maxVehiclesStopped_ID}, value {bestRun_maxVehiclesStopped_Value}")
         print(f"Best Run avg Stopped: ID {bestRun_avgVehiclesStopped_ID}, value {bestRun_avgVehiclesStopped_Value}")
+
+        allStatsDataFrame = pandas.DataFrame.from_dict(allStats)
+        allStatsDataFrame.sort_values(by=['episode'], inplace=True)
+        allStatsDataFrame = allStatsDataFrame.groupby('episode').mean()
+        allStatsDataFrame['trainingTime'] -= allStatsDataFrame['trainingTime'].min()
+        allStatsDataFrame.to_csv(args.experimentDataPrefix+'_stats.csv')
 
     plt.title(args.title)
     plt.ylabel(args.ylabel)
     plt.xlabel(args.xlabel)
     plt.ylim(bottom=0)
 
-    if args.output is not None:
-        plt.savefig(args.output+'.pdf', bbox_inches="tight")
+    plt.savefig(args.experimentDataPrefix +'.pdf', bbox_inches="tight")
 
     plt.show()
