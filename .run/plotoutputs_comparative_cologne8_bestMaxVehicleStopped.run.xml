@@ -13,7 +13,7 @@
     <option name="ADD_SOURCE_ROOTS" value="true" />
     <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
     <option name="SCRIPT_NAME" value="$PROJECT_DIR$/experiments/plot_methodsComparison.py" />
-    <option name="PARAMETERS" value="-f &quot;$PROJECT_DIR$/outputs/massa\cologne8exp_DQN__conn0_run224.csv,$PROJECT_DIR$/outputs/massa\cologne8exp_SAC__conn2_run718.csv,$PROJECT_DIR$/outputs/massa\cologne8exp_A3C__conn1_run301.csv,$PROJECT_DIR$/outputs/massa\cologne8exp_PPO__conn1_run488.csv&quot; -names &quot;DQN,SAC,A3C,PPO&quot; -output &quot;C:\repos\TrafficFlowOptimization\outputs\massa\cologne8exp_compareBestMaxWaitTime.csv&quot; -title &quot;Best MaxStopped&quot; -ma 100" />
+    <option name="PARAMETERS" value="-f &quot;$PROJECT_DIR$/outputs/massa\cologne8exp_DQN__conn0_run224.csv,$PROJECT_DIR$/outputs/massa\cologne8exp_SAC__conn2_run718.csv,$PROJECT_DIR$/outputs/massa\cologne8exp_A3C__conn1_run301.csv,$PROJECT_DIR$/outputs/massa\cologne8exp_PPO__conn1_run488.csv&quot; -names &quot;DQN,SAC,A3C,PPO&quot; -output &quot;C:\repos\TrafficFlowOptimization\outputs\massa\cologne8exp_compareBest_maxVehicleStopped.csv&quot; -title &quot;Best MaxStopped&quot; -ma 100 -ylabel &quot;MaxVehicleStopped&quot;" />
     <option name="SHOW_COMMAND_LINE" value="false" />
     <option name="EMULATE_TERMINAL" value="false" />
     <option name="MODULE_MODE" value="false" />

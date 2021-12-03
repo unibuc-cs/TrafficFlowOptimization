@@ -13,7 +13,7 @@
     <option name="ADD_SOURCE_ROOTS" value="true" />
     <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
     <option name="SCRIPT_NAME" value="$PROJECT_DIR$/experiments/plot_methodsComparison.py" />
-    <option name="PARAMETERS" value="-f &quot;$PROJECT_DIR$/outputs/massa/cologne8exp_DQN_stats.csv,$PROJECT_DIR$/outputs/massa/cologne8exp_SAC_stats.csv,$PROJECT_DIR$/outputs/massa/cologne8exp_A3C_stats.csv,$PROJECT_DIR$/outputs/massa\cologne8exp_PPO_stats.csv&quot; -names &quot;DQN,SAC,A3C,PPO&quot; -output &quot;C:\repos\TrafficFlowOptimization\outputs\massa\cologne8exp_trainingProgress_avgVehiclesStopped.csv&quot; -title &quot;Progress - AvgVehiclesStopped&quot; -ma 100 -xaxis &quot;episode&quot; -yaxis &quot;avgStopped&quot;" />
+    <option name="PARAMETERS" value="-f &quot;$PROJECT_DIR$/outputs/massa/cologne8exp_DQN_stats.csv,$PROJECT_DIR$/outputs/massa/cologne8exp_SAC_stats.csv,$PROJECT_DIR$/outputs/massa/cologne8exp_A3C_stats.csv,$PROJECT_DIR$/outputs/massa\cologne8exp_PPO_stats.csv&quot; -names &quot;DQN,SAC,A3C,PPO&quot; -output &quot;C:\repos\TrafficFlowOptimization\outputs\massa\cologne8exp_trainingProgress_avgVehiclesStopped.csv&quot; -title &quot;Progress - AvgVehiclesStopped&quot; -ma 100 -xaxis &quot;episode&quot; -yaxis &quot;avgStopped&quot; -ylabel &quot;AvgVehiclesStopped&quot; -xlabel &quot;Episode&quot;" />
     <option name="SHOW_COMMAND_LINE" value="false" />
     <option name="EMULATE_TERMINAL" value="false" />
     <option name="MODULE_MODE" value="false" />
