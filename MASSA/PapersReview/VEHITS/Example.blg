@@ -1,0 +1,69 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Example.aux
+White space in argument---line 64 of file Example.aux
+ : \citation{
+ :            BOLT }
+I'm skipping whatever remains of this command
+White space in argument---line 97 of file Example.aux
+ : \citation{
+ :            SAC }
+I'm skipping whatever remains of this command
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+The style file: apalike.bst
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+Database file #1: example.bib
+Name 1 in "Horni A., Nagel, K., and Axhausen K.W" has a comma at the end for entry MATSim
+while executing---line 1020 of file apalike.bst
+Name 1 in "Horni A., Nagel, K., and Axhausen K.W" has a comma at the end for entry MATSim
+while executing---line 1020 of file apalike.bst
+Warning--empty journal in ASAM
+Name 1 in "Horni A., Nagel, K., and Axhausen K.W" has a comma at the end for entry MATSim
+while executing---line 1095 of file apalike.bst
+Warning--can't use both author and editor fields in Innes2011
+Warning--empty journal in Calt
+Warning--empty publisher in ModellingTransport
+Warning--empty journal in suttonbook
+Warning--empty booktitle in WiVre04
+You've used 39 entries,
+            1935 wiz_defined-function locations,
+            662 strings with 10636 characters,
+and the built_in function-call counts, 15563 in all, are:
+= -- 1420
+> -- 1020
+< -- 20
++ -- 370
+- -- 363
+* -- 1364
+:= -- 2882
+add.period$ -- 96
+call.type$ -- 39
+change.case$ -- 372
+chr.to.int$ -- 38
+cite$ -- 45
+duplicate$ -- 498
+empty$ -- 802
+format.name$ -- 420
+if$ -- 2880
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 22
+newline$ -- 176
+num.names$ -- 119
+pop$ -- 357
+preamble$ -- 1
+purify$ -- 376
+quote$ -- 0
+skip$ -- 399
+stack$ -- 0
+substring$ -- 669
+swap$ -- 48
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 226
+warning$ -- 6
+while$ -- 91
+width$ -- 0
+write$ -- 437
+(There were 5 error messages)

@@ -1,0 +1,204 @@
+\begin{thebibliography}{}
+
+\bibitem[Ault et~al., 2020]{ault}
+Ault, J., Hanna, J.~P., and Sharon, G. (2020).
+\newblock Learning an interpretable traffic signal control policy.
+
+\bibitem[Ault and Sharon, 2021]{ault2021reinforcement}
+Ault, J. and Sharon, G. (2021).
+\newblock Reinforcement learning benchmarks for traffic signal control.
+\newblock In {\em Thirty-fifth Conference on Neural Information Processing
+  Systems Datasets and Benchmarks Track (Round 1)}.
+
+\bibitem[BOLT, 2020]{BOLT}
+BOLT (2020).
+\newblock Simulating cities for a better ride-hailing experience at bolt.
+
+\bibitem[Brockman et~al., 2016]{gym}
+Brockman, G., Cheung, V., Pettersson, L., Schneider, J., Schulman, J., Tang,
+  J., and Zaremba, W. (2016).
+\newblock Openai gym.
+
+\bibitem[Button and Hensher, 2007]{HandbookTransportModelling}
+Button, K. and Hensher, D. (2007).
+\newblock {\em Handbook of Transport Modelling}, volume~1.
+\newblock Emerald Publishing.
+
+\bibitem[Casas, 2017]{Cas17}
+Casas, N. (2017).
+\newblock Deep reinforcement learning for urban traffic light control.
+\newblock {\em Master Thesis in Advanced Artificial Intelligence, Department of
+  Artificial Intelligence Universidad Nacional de Educación a Distancia}.
+
+\bibitem[Chen et~al., 2020]{MPLight}
+Chen, C., Wei, H., Xu, N., Zheng, G., Yang, M., Xiong, Y., Xu, K., and Li, Z.
+  (2020).
+\newblock Toward a thousand lights: Decentralized deep reinforcement learning
+  for large-scale traffic signal control.
+\newblock {\em Proceedings of the AAAI Conference on Artificial Intelligence},
+  34(04):3414--3421.
+
+\bibitem[Chu et~al., 2019]{chu2019multiagent}
+Chu, T., Wang, J., Codecà, L., and Li, Z. (2019).
+\newblock Multi-agent deep reinforcement learning for large-scale traffic
+  signal control.
+
+\bibitem[Commission, 2021]{EuropeanCommission2021}
+Commission, E. (2021).
+\newblock Smart cities.
+
+\bibitem[Deepmind and Google, 2020]{deepmindblog}
+Deepmind and Google (2020).
+\newblock Traffic prediction with advanced graph neural networks.
+
+\bibitem[Dhariwal et~al., 2017]{baselines}
+Dhariwal, P., Hesse, C., Klimov, O., Nichol, A., Plappert, M., Radford, A.,
+  Schulman, J., Sidor, S., Wu, Y., and Zhokhov, P. (2017).
+\newblock Openai baselines.
+\newblock \url{https://github.com/openai/baselines}.
+
+\bibitem[Dosovitskiy et~al., 2017]{dosovitskiy2017carla}
+Dosovitskiy, A., Ros, G., Codevilla, F., Lopez, A., and Koltun, V. (2017).
+\newblock Carla: An open urban driving simulator.
+
+\bibitem[for Standardization~of Automation and Systems, 2021]{ASAM}
+for Standardization~of Automation, A. and Systems, M. (2021).
+\newblock Asam opendrive.
+
+\bibitem[Fujita et~al., 2021]{PFRL}
+Fujita, Y., Nagarajan, P., Kataoka, T., and Ishikawa, T. (2021).
+\newblock Chainerrl: A deep reinforcement learning library.
+\newblock {\em Journal of Machine Learning Research}, 22(77):1--14.
+
+\bibitem[Genders and Razavi, 2016]{GenRaz16}
+Genders, W. and Razavi, S. (2016).
+\newblock Using a deep reinforcement learning agent for traffic signal control.
+
+\bibitem[Guadarrama et~al., 2018]{TFAgents}
+Guadarrama, S., Korattikara, A., Ramirez, O., Castro, P., Holly, E., Fishman,
+  S., Wang, K., Gonina, E., Wu, N., Kokiopoulou, E., Sbaiz, L., Smith, J.,
+  Bartók, G., Berent, J., Harris, C., Vanhoucke, V., and Brevdo, E. (2018).
+\newblock {TF-Agents}: A library for reinforcement learning in tensorflow.
+\newblock \url{https://github.com/tensorflow/agents}.
+\newblock [Online; accessed 25-June-2019].
+
+\bibitem[Haarnoja et~al., 2018]{SAC}
+Haarnoja, T., Zhou, A., Abbeel, P., and Levine, S. (2018).
+\newblock Soft actor-critic: Off-policy maximum entropy deep reinforcement
+  learning with a stochastic actor.
+
+\bibitem[Horni~A. and K.W, 2016]{MATSim}
+Horni~A., Nagel, K. and K.W, A. (2016).
+\newblock {\em The Multi-Agent Transport Simulation}, volume~1.
+\newblock Ubiquity Press.
+
+\bibitem[Innes and Kouhy, 2011]{Innes2011}
+Innes, J. and Kouhy, R. (2011).
+\newblock {\em The Activity-Based Approach}, pages 243--274.
+\newblock Palgrave Macmillan UK, London.
+
+\bibitem[Krajzewicz et~al., 2012]{SUMMO}
+Krajzewicz, D., Erdmann, J., Behrisch, M., and Bieker-Walz, L. (2012).
+\newblock Recent development and applications of sumo - simulation of urban
+  mobility.
+\newblock {\em International Journal On Advances in Systems and Measurements},
+  3 and 4.
+
+\bibitem[Liang et~al., 2018]{liang2018rllib}
+Liang, E., Liaw, R., Moritz, P., Nishihara, R., Fox, R., Goldberg, K.,
+  Gonzalez, J.~E., Jordan, M.~I., and Stoica, I. (2018).
+\newblock Rllib: Abstractions for distributed reinforcement learning.
+
+\bibitem[Lillicrap et~al., 2019]{lillicrap2019continuous}
+Lillicrap, T.~P., Hunt, J.~J., Pritzel, A., Heess, N., Erez, T., Tassa, Y.,
+  Silver, D., and Wierstra, D. (2019).
+\newblock Continuous control with deep reinforcement learning.
+
+\bibitem[Lin et~al., 2018]{LiDa}
+Lin, Y., Dai, X., Li, L., and Wang, F.-Y. (2018).
+\newblock An efficient deep reinforcement learning model for urban traffic
+  control.
+
+\bibitem[Mnih et~al., 2016]{MnBA}
+Mnih, V., Badia, A.~P., Mirza, M., Graves, A., Lillicrap, T.~P., Harley, T.,
+  Silver, D., and Kavukcuoglu, K. (2016).
+\newblock Asynchronous methods for deep reinforcement learning.
+
+\bibitem[of~Transportation, 2021]{Calt}
+of~Transportation, C.~D. (2021).
+\newblock Caltrans performance measurement system.
+
+\bibitem[Ortúzar and Willumsen, 2011]{ModellingTransport}
+Ortúzar, J. d.~D. and Willumsen, L. (2011).
+\newblock {\em Modelling Transport, Fourth Edition}.
+
+\bibitem[OSRM, 2020]{OSRM}
+OSRM (2020).
+\newblock Routing machine project osrm.
+
+\bibitem[S.~Sutton and G.~Barto, 2018]{suttonbook}
+S.~Sutton, R. and G.~Barto, A. (2018).
+\newblock Reinforcement learning: An introduction second edition.
+
+\bibitem[Schulman et~al., 2017]{schulman2017proximal}
+Schulman, J., Wolski, F., Dhariwal, P., Radford, A., and Klimov, O. (2017).
+\newblock Proximal policy optimization algorithms.
+
+\bibitem[SUMBA, 2020]{SUMBA}
+SUMBA, P. (2020).
+\newblock Guidance for transport modelling and data collection.
+
+\bibitem[Terry et~al., 2020a]{terry2020pettingzoo}
+Terry, J.~K., Black, B., Grammel, N., Jayakumar, M., Hari, A., Sulivan, R.,
+  Santos, L., Perez, R., Horsch, C., Dieffendahl, C., Williams, N.~L., Lokesh,
+  Y., Sullivan, R., and Ravi, P. (2020a).
+\newblock Pettingzoo: Gym for multi-agent reinforcement learning.
+\newblock {\em arXiv preprint arXiv:2009.14471}.
+
+\bibitem[Terry et~al., 2020b]{SuperSuit}
+Terry, J.~K., Black, B., and Hari, A. (2020b).
+\newblock Supersuit: Simple microwrappers for reinforcement learning
+  environments.
+\newblock {\em arXiv preprint arXiv:2008.08932}.
+
+\bibitem[Terry et~al., 2021]{terry2021agent}
+Terry, J.~K., Grammel, N., Black, B., Hari, A., Horsch, C., and Santos, L.
+  (2021).
+\newblock Agent environment cycle games.
+
+\bibitem[Tom{\'{a}}sek et~al., 2021]{DBLP:conf/ijcai/TomasekHABC21}
+Tom{\'{a}}sek, P., Hor{\'{a}}k, K., Aradhye, A., Bosansk{\'{y}}, B., and
+  Chatterjee, K. (2021).
+\newblock Solving partially observable stochastic shortest-path games.
+\newblock In Zhou, Z., editor, {\em Proceedings of the Thirtieth International
+  Joint Conference on Artificial Intelligence, {IJCAI} 2021, Virtual Event /
+  Montreal, Canada, 19-27 August 2021}, pages 4182--4189. ijcai.org.
+
+\bibitem[Walraven et~al., 2016]{WALRAVEN2016203}
+Walraven, E., Spaan, M.~T., and Bakker, B. (2016).
+\newblock Traffic flow optimization: A reinforcement learning approach.
+\newblock {\em Engineering Applications of Artificial Intelligence},
+  52:203--212.
+
+\bibitem[Wang et~al., 2016]{DQN}
+Wang, Z., Schaul, T., Hessel, M., van Hasselt, H., Lanctot, M., and de~Freitas,
+  N. (2016).
+\newblock Dueling network architectures for deep reinforcement learning.
+
+\bibitem[Wiering et~al., 2004]{WiVre04}
+Wiering, M., Vreeken, J., Veenen, J., and Koopman, A. (2004).
+\newblock Simulation and optimization of traffic in a city.
+\newblock pages 453 -- 458.
+
+\bibitem[Wu et~al., 2020]{Wu20}
+Wu, T., Zhou, P., Liu, K., Yuan, Y., Wang, X., Huang, H., and Wu, D.~O. (2020).
+\newblock Multi-agent deep reinforcement learning for urban traffic light
+  control in vehicular networks.
+\newblock {\em IEEE Transactions on Vehicular Technology}, 69(8):8243--8256.
+
+\bibitem[Zheng et~al., 2019]{zheng2019learning}
+Zheng, G., Xiong, Y., Zang, X., Feng, J., Wei, H., Zhang, H., Li, Y., Xu, K.,
+  and Li, Z. (2019).
+\newblock Learning phase competition for traffic signal control.
+
+\end{thebibliography}
