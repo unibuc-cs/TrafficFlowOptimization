@@ -1,7 +1,8 @@
 import argparse
 from datetime import datetime
 import os
-
+import sys
+sys.path.append("./sumo-rl")
 
 def parseArgs():
     prs = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter,

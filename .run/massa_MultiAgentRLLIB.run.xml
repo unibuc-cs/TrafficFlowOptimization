@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="massa_MultiAgentRLLIB_cologne8" type="PythonConfigurationType" factoryName="Python">
-    <module name="sumo-rl" />
+    <module name="TrafficFlowOptimization" />
     <option name="INTERPRETER_OPTIONS" value="" />
     <option name="PARENT_ENVS" value="true" />
     <envs>
@@ -14,7 +14,7 @@
     <option name="ADD_SOURCE_ROOTS" value="true" />
     <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
     <option name="SCRIPT_NAME" value="$PROJECT_DIR$/experiments/massa_marl_a3c.py" />
-    <option name="PARAMETERS" value="-route nets/RESCO/cologne8/cologne8.rou.xml -net nets/RESCO/cologne8/cologne8.net.xml -begin_time 25200 -simulation_time 28800 -sumo_seed random -singleagent 0 -outputbasepath &quot;outputs/massa/cologne8exp_SAC_&quot; -stop_timesteps 100000000 -maxTime 13400" />
+    <option name="PARAMETERS" value="-route nets/RESCO/cologne8/cologne8.rou.xml -net sumo-rl/nets/RESCO/cologne8/cologne8.net.xml -begin_time 25200 -simulation_time 28800 -sumo_seed random -singleagent 0 -outputbasepath &quot;outputs/massa/cologne8exp_SAC_&quot; -stop_timesteps 100000000 -maxTime 13400" />
     <option name="SHOW_COMMAND_LINE" value="false" />
     <option name="EMULATE_TERMINAL" value="false" />
     <option name="MODULE_MODE" value="false" />

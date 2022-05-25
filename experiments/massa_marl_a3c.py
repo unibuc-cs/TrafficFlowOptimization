@@ -26,6 +26,9 @@ from ray.rllib.env import PettingZooEnv, ParallelPettingZooEnv
 from ray.tune.registry import register_env
 from gym import spaces
 import numpy as np
+
+import sys
+sys.path.append("./sumo-rl")
 import sumo_rl
 from sumo_rl import env, parallel_env
 import traci

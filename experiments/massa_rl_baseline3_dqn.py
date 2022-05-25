@@ -7,6 +7,9 @@ if 'SUMO_HOME' in os.environ:
     sys.path.append(tools)
 else:
     sys.exit("Please declare the environment variable 'SUMO_HOME'")
+
+import sys
+sys.path.append("./sumo-rl")
 from sumo_rl import SumoEnvironment
 import traci
 import massa_common
@@ -37,7 +40,7 @@ if __name__ == '__main__':
     model = DQN(
         env=env,
         policy="MlpPolicy",
-        learning_rate=0.01,
+        learning_rate=0.02,
         learning_starts=0,
         train_freq=1,
         target_update_interval=100,

@@ -1,0 +1,3 @@
+[submodule "sumo-rl"]
+	path = sumo-rl
+	url = https://github.com/LucasAlegre/sumo-rl
