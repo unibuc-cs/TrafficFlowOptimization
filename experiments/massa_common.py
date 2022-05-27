@@ -4,6 +4,10 @@ import os
 import sys
 sys.path.append("./sumo-rl")
 
+# Formula for output size of a 2D conv given a kernel size and stride
+def getConv2dOutSize(size, kernel_size=2, stride=1):
+    return (size - (kernel_size - 1) - 1) // stride + 1
+
 def parseArgs():
     prs = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter,
                                   description="""MultiAgent RL using RLLib""")
